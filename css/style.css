@@ -2,7 +2,6 @@
 
 body {
     font-family: Georgia;
-    background: green;
 }
 
 p {
@@ -10,21 +9,14 @@ p {
     color: green;
 }
 
-img {
-    float: left;
-}
-
 .chop {
+    height: 100px;
     position: fixed;
-    top: 5px;
-}
-
-.chop img:hover {
-    background: white;
+    top: 15px;
 }
 
 img:hover {
-    background: black;
+    opacity: 0.5;
 }
 
 h1 {
@@ -32,44 +24,58 @@ h1 {
     margin-left: 120px;
 }
 
+.l-hex {
+    height: 325px;
 
-/* biggest devices & high resolution */
-@media only screen
-and (min-width : 2000px) {
-    
-    /* Largest Body Definition */
-    
-    body {
-	background: red;
-    }
-    
+.m-hex {
+    height: 150px;
+}
+
+.s-hex {
+    height: 50px;
 }
 
 
-/* small laptops, netbooks, and some tablets */
+
+/******************************************/
+/* an attempt at making things responsive */
+
+/* large *****************************/
+@media only screen
+and (min-width : 2000px) {
+    /* Large Body Definition */
+    body {
+	background: red;
+    }
+}
+
+/* medium *****************************/
+@media only screen
+and (min-width : 1400px)
+and (max-width : 1999px) {
+    /* Medium Body Definition */
+    body {
+	background: green;
+    }
+}
+
+
+/* small *****************************/
 @media only screen
 and (min-width : 1000px)
 and (max-width : 1399px) {
-    
     /* Small Body Definition */
     body {
 	background: blue;
     }
-    
 }
 
-/* pretty much just phones */
+/* phone *****************************/
 @media only screen
 and (min-width : 800px)
-and (max-width : 999px) {
-    
+and (max-width : 999px) {    
     /* Phone Body Definition */
-    
     body {
-	color: black;
+	background: black;
     }
-    
 }
-
-
-
