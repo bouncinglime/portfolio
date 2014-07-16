@@ -1,0 +1,75 @@
+/* Main Body Definition */
+
+body {
+    font-family: Georgia;
+    background: green;
+}
+
+p {
+    background: grey;
+    color: green;
+}
+
+img {
+    float: left;
+}
+
+.chop {
+    position: fixed;
+    top: 5px;
+}
+
+.chop img:hover {
+    background: white;
+}
+
+img:hover {
+    background: black;
+}
+
+h1 {
+    font-size: 40pt;
+    margin-left: 120px;
+}
+
+
+/* biggest devices & high resolution */
+@media only screen
+and (min-width : 2000px) {
+    
+    /* Largest Body Definition */
+    
+    body {
+	background: red;
+    }
+    
+}
+
+
+/* small laptops, netbooks, and some tablets */
+@media only screen
+and (min-width : 1000px)
+and (max-width : 1399px) {
+    
+    /* Small Body Definition */
+    body {
+	background: blue;
+    }
+    
+}
+
+/* pretty much just phones */
+@media only screen
+and (min-width : 800px)
+and (max-width : 999px) {
+    
+    /* Phone Body Definition */
+    
+    body {
+	color: black;
+    }
+    
+}
+
+
+
