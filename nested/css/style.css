@@ -4,6 +4,11 @@ body {
     font-family: Georgia;
 }
 
+h1 {
+    font-size: 50px;
+    margin-left: 120px;
+}
+
 p {
     background: grey;
     color: green;
@@ -33,6 +38,7 @@ img:hover {
 }
 
 .m-hex {
+    float: top;
     height: 225px;
 }
 
