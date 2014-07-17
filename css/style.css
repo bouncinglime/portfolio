@@ -1,3 +1,5 @@
+/* This is the easy version using CSS hexagons. */
+
 /* Main Body Definition */
 
 body {
@@ -9,6 +11,26 @@ body {
     position: fixed;
     top: 15px;
 }
+
+h1 {
+    font-size: 50px;
+    margin-left: 120px;
+}
+
+#charhex {
+    color: #6C6;
+    font-size: 300px;
+}
+
+#charhex:after {
+    content: "\2B22";
+    display: inline-block;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}​
 
 .hex {
     float: left;
@@ -62,7 +84,7 @@ and (min-width : 1400px)
 and (max-width : 1999px) {
     /* Medium Body Definition */
     body {
-	background: green;
+	background: yellow;
     }
 }
 
