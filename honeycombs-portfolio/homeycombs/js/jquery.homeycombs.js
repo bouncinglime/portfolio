@@ -4,8 +4,8 @@
 
         // Establish our default settings
         var settings = $.extend({
-            combWidth: 250,
-            margin: 10
+            combWidth: 400, // change size of combs
+            margin: 5 // change margin between combs
         }, options);
 
         function initialise(element) {

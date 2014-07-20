@@ -22,14 +22,17 @@ h1 {
     text-align: center;
 }
 
+/* use this to put text on top of hex images. contained within <span></span> */
 .honeycombs .inner_span{
     font-size: 30pt;
     height: 100%;
     width: 100%;
+    background: white;
     opacity: 0.7;
 }
 
-/*.honeycombs .inner-text{
+/* more <span> styling
+.honeycombs .inner-text{
     display: inline-block;
     vertical-align: middle;
 }*/
