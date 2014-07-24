@@ -1,20 +1,37 @@
 /* Main Body Definition */
 
+/* define default styling for everything */
 body {
     font-family: Georgia;
+    cursor: default;
 }
 
+/* position and size of chop in corner */
 .chop {
     height: 100px;
     position: fixed;
     top: 15px;
 }
 
+/* style and position page title */
 h1 {
     font-size: 50px;
     margin-left: 120px;
 }
 
+/* style and position hex label */
+.hexlabel {
+    position: absolute;
+    margin-top: 2em;
+    font-size: 30pt;
+    height: 100%;
+    width: 100%;
+    color: #000;
+    z-index: 1;
+}
+
+/* attempting to style images-as-links */
+/*
 a.hovertext {
     position: relative;
     width: 100%;
@@ -41,6 +58,7 @@ a.hovertext:after {
 a.hovertext:hover:after, a.hovertext:focus:after {
     opacity: 1.0;
 }
+*/
 
 /* Homeycombs styling, customized a bit. */
 
@@ -51,9 +69,10 @@ a.hovertext:hover:after, a.hovertext:focus:after {
     text-align: center;
 }
 
-/* use this to put text on top of hex images. contained within <span></span> */
+/* use this to put text on top of hex images in a rollover. contained within <span></span> */
 .honeycombs .inner_span{
     font-size: 30pt;
+    margin-bottom: 0;
     height: 100%;
     width: 100%;
     background: #fcb03c;
@@ -66,6 +85,7 @@ a.hovertext:hover:after, a.hovertext:focus:after {
     padding-top: 30%;
 }
 
+/* even more <span> styling */
 .honeycombs .honeycombs-inner-wrapper{
     display: inline-block;
     overflow: hidden;
@@ -74,6 +94,7 @@ a.hovertext:hover:after, a.hovertext:focus:after {
     height: 1200px;
 }
 
+/* individual comb styling */
 .honeycombs .comb{
     position: absolute;
     display: inline-block;
