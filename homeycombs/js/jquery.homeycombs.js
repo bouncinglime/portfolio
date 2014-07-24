@@ -82,7 +82,7 @@
                 $wrapper.width(width);
                 
                 var row = 0; // current row
-                var upDown = 1; // 1 is down
+                var upDown = 0; // 1 is down
                 var left = 0; // pos left
                 var top = 0; // pos top
                 
@@ -109,7 +109,7 @@
                     if(left + combWidth > width){
                         left = 0;
                         row = row + 1;
-                        upDown = 1;
+                        upDown = 0;
                     }
                 });
                 
