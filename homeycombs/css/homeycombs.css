@@ -11,6 +11,7 @@ body {
     height: 100px;
     position: fixed;
     top: 15px;
+    z-index: 1;
 }
 
 /* style and position page title */
@@ -29,6 +30,8 @@ h1 {
     color: #000;
     z-index: 1;
 }
+
+/* styling for project pages */
 
 
 /* Homeycombs styling, customized a bit. */
