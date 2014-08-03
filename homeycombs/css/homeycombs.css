@@ -8,6 +8,13 @@ body {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow:2px 2px 4px grey;
+    color: black;
+}
+
 /* position and size of chop in corner */
 .chop {
     height: 100px;
@@ -35,7 +42,7 @@ h1 {
 
 /* styling for project pages */
 .narrow {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -49,6 +56,7 @@ h1 {
 .rightimg {
     float: right;
     width: 300px;
+    margin-top: 3em;
     margin-left: 10px;
     margin-bottom: 20px;
 }
@@ -56,26 +64,50 @@ h1 {
 .leftimg {
     float: left;
     width: 300px;
+    margin-top: 1em;
     margin-right: 10px;
     margin-bottom: 20px;
 }
 
-.imgrow {
+.nav {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.imgnav {
     float: left;
     width: 200px;
     margin-right: 10px;
     margin-bottom: 20px;
 }
 
-.text {
+text {
     font-size: 14pt;
     line-height: 1.2em;
     text-align: left;
     margin-bottom: 20px;
 }
 
-strong {
-    font-size: 30px;
+br {
+   line-height: 2em;
+}
+
+label {
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+expl {
+    color: grey;
+    font-size: 12pt;
+    font-style: italic;
+}
+
+.navlabel {
+    position: absolute;
+    margin-top: 3em;
+    font-size: 16pt;
 }
 
 

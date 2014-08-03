@@ -30,13 +30,13 @@
     <div class="narrow">
 
       <!-- logo and name -->
-      <img class="chop" src="images/chop.png" alt="logo">
+      <a href="index.html"><img class="chop" src="images/chop.png" alt="logo" /></a>
       <h1>Project1</h1>
 
       <!-- two hexagons that restack when window is small -->
       <div>
 	<img class="headimg" src="images/blue.png" />
-	<img class="headimg" src="images/blue.png" />
+	<img class="headimg" src="images/PR-digi.png" />
       </div>
 
       <!-- forcing everything else below hexagons -->
@@ -48,24 +48,36 @@
       <img class="rightimg" src="images/red.png" />
 
       <!-- Description -->
-      <p class="text">
-	<strong>Lorem ipsum dolor sit amet</strong>
-	<br />Consectetur adipiscing elit. Nullam vel ultrices ipsum. Cras consectetur dictum magna, a posuere erat placerat sed. Vestibulum vel lacus a justo lacinia porttitor et quis velit.
-	<br />
-	<br /><strong>Team</strong>
-	<br />Nullam Bibendum (<i>imperdiet elit sed</i>). Phasellus Sitamet (<i>risus id</i>). Sapien Semper (<i>congue auctor</i>).
-      </p>
+      <label>API Explorer and Editor for <a href="http://powerreviews.com">PowerReviews</a></label>
+      <br />
+      <br /><expl>Final project for General Assembly's UXDi program.</expl>
+      <br /><text>PowerReviews is one of the top providers of reviews, ratings, and question-and-answer sections on e-commerce websites. Many of their customers asked for an easy way to customize the out-of-the-box HTML/CSS/JS solution. PowerReviews had created an API as a way to allow customers full control over the display. All they had was a 60-page PDF documenting their API calls that were possible. They came to us asking for a visual way to explain and access that API.</text>
+      <br />
+      <br /><label>My Role</label>
+      <br /><text>I collaborated with one other classmate, Andrew Lux, on every aspect of this project. We both worked on research, sketches, a paper prototype that was far more complicated than necessary, and user testing. He focused on creating high-fidelity wireframes and a prototype. I synthesized the user feedback, as well as led communications with our client.</text>
 
       <!-- forcing everything else below the text -->
       <div style="clear: both;">
       </div>
 
       <!-- row of clickable headers (page anchors) -->
-      <div>
-	<a href=""><img class="imgrow" src="images/yellow.png" /></a>
-	<a href=""><img class="imgrow" src="images/yellow.png" /></a>
-	<a href=""><img class="imgrow" src="images/yellow.png" /></a>
-	<a href=""><img class="imgrow" src="images/yellow.png" /></a>
+      <div class="nav">
+	<a href="#research"><img class="imgnav" src="images/yellow.png" />
+	  <div class="navlabel">Research</div>
+	</a>
+	<a href="#sketching"><img class="imgnav" src="images/yellow.png" />
+	  <div class="navlabel">Sketching</div>
+	</a>
+	<a href="#iteration"><img class="imgnav" src="images/yellow.png" />
+	  <div class="navlabel">Iteration</div>
+	</a>
+	<a href="#wireframe"><img class="imgnav" src="images/yellow.png" />
+	  <div class="navlabel">Wireframes & Prototype</div>
+	</a>
+      </div>
+
+      <!-- forcing everything else below the images -->
+      <div style="clear: both;">
       </div>
 
       <!-- image of working?
@@ -74,11 +86,10 @@
 
       <!-- Description -->
       <p class="text">
-	<strong>Lorem ipsum dolor sit amet</strong>
-	<br />Consectetur adipiscing elit. Nullam vel ultrices ipsum. Cras consectetur dictum magna, a posuere erat placerat sed. Vestibulum vel lacus a justo lacinia porttitor et quis velit.
-	<br />
-	<br /><strong>Team</strong>
-	<br />Nullam Bibendum (<i>imperdiet elit sed</i>). Phasellus Sitamet (<i>risus id</i>). Sapien Semper (<i>congue auctor</i>).
+	<label name="research">Research</label>
+	<br />The first research was talking to instructors and other classmates about their interactions with APIs. After looking through several resources and learning more about the details of an API call, we started looking into various types of online code editors.
+	<br />Our design is heavily influenced by jsfiddle. As a servie, it has wide usage across skill levels and developer communities. We needed a way of displaying all of the file types at once, and preferably a visual display of the results. jsfiddle does this quite nicely, managing to pack a lot of information into a compact screen.
+	<br />Subsiquent user testing of paper prototypes validated this decision. Most of the iteration that we did was on the details of the layout of the screen; the universal response we got to prototypes at all fidelities was "wow! This is really great!" and "I would use the crap out of an API that had an interface like this".
       </p>
 
     </div> <!-- Closing narrower project div -->
