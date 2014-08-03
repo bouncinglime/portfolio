@@ -57,7 +57,7 @@
             function updateScales(){
                 combWidth = settings.combWidth;
                 combHeight = ( Math.sqrt(3) * combWidth ) / 2;
-                edgeWidth = combWidth / 2;
+/*                edgeWidth = combWidth / 2; NOT IN USE? */
                 
                 
                 $(element).find('.comb').width(combWidth).height(combHeight);
@@ -86,7 +86,7 @@
                 var left = 0; // pos left
                 var top = 0; // pos top
                 
-                var cols = 0;
+                var cols = 2; // originally 0; changed to move everything to left side of window
                 
                 $(element).find('.comb').each(function(index){
                     

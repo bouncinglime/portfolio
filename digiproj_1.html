@@ -7,7 +7,7 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <!-- meta tags -->
     <meta charset="utf-8" />
-    <meta name="Marielle Hsu Portfolio - Digital Projects" content="HTML,CSS,JavaScript" />
+    <meta name="Marielle Hsu Portfolio - Project1" content="HTML,CSS,JavaScript" />
     <meta name="author" content="Marielle Hsu" />
     <meta name="description" content="Designing creative, efficient, intuitive experiences." />
     <meta name="keywords" content="UX,UI,UI/UX,design,experience design,service design,user experience design,efficient design,hexagon" />
@@ -25,35 +25,63 @@
 
   <body>
 
-    <!-- actual content -->
+    <!-- actual content, max width defined in CSS differs from default -->
 
-    <!-- logo and name -->
-    <img class="chop" src="images/chop.png" alt="logo">
-    <h1>Digital Projects</h1>
+    <div class="narrow">
 
-    <!-- laying out the hexagons -->
-    <div class="honeycombs">
-      <!-- Project1 -->
-      <a class="comb" href="http://google.com">
-	<img src="images/green.png" />
-	<div class="hexlabel">
-	  <p>Project1</p>
-	</div>
-	<span>Project1</span>
-      </a>
-      <!-- Project2 -->
-      <a class="comb" href="">
-	<div class="hexlabel">
-	  <p>Project2</p>
-	</div>
-	<img src="images/green.png" />
-	<span>Project2</span>
-      </a>
-      <!-- Description -->
+      <!-- logo and name -->
+      <img class="chop" src="images/chop.png" alt="logo">
+      <h1>Project1</h1>
+
+      <!-- two hexagons that restack when window is small -->
       <div>
+	<img class="headimg" src="images/blue.png" />
+	<img class="headimg" src="images/blue.png" />
       </div>
 
-    </div>
+      <!-- forcing everything else below hexagons -->
+      <div style="clear: both;">
+      </div>
+
+      <!-- image of working?
+	   ALWAYS BEFORE TEXT when text flows around image -->
+      <img class="rightimg" src="images/red.png" />
+
+      <!-- Description -->
+      <p class="text">
+	<strong>Lorem ipsum dolor sit amet</strong>
+	<br />Consectetur adipiscing elit. Nullam vel ultrices ipsum. Cras consectetur dictum magna, a posuere erat placerat sed. Vestibulum vel lacus a justo lacinia porttitor et quis velit.
+	<br />
+	<br /><strong>Team</strong>
+	<br />Nullam Bibendum (<i>imperdiet elit sed</i>). Phasellus Sitamet (<i>risus id</i>). Sapien Semper (<i>congue auctor</i>).
+      </p>
+
+      <!-- forcing everything else below the text -->
+      <div style="clear: both;">
+      </div>
+
+      <!-- row of clickable headers (page anchors) -->
+      <div>
+	<a href=""><img class="imgrow" src="images/yellow.png" /></a>
+	<a href=""><img class="imgrow" src="images/yellow.png" /></a>
+	<a href=""><img class="imgrow" src="images/yellow.png" /></a>
+	<a href=""><img class="imgrow" src="images/yellow.png" /></a>
+      </div>
+
+      <!-- image of working?
+	   ALWAYS BEFORE TEXT when text flows around image -->
+      <img class="leftimg" src="images/red.png" />
+
+      <!-- Description -->
+      <p class="text">
+	<strong>Lorem ipsum dolor sit amet</strong>
+	<br />Consectetur adipiscing elit. Nullam vel ultrices ipsum. Cras consectetur dictum magna, a posuere erat placerat sed. Vestibulum vel lacus a justo lacinia porttitor et quis velit.
+	<br />
+	<br /><strong>Team</strong>
+	<br />Nullam Bibendum (<i>imperdiet elit sed</i>). Phasellus Sitamet (<i>risus id</i>). Sapien Semper (<i>congue auctor</i>).
+      </p>
+
+    </div> <!-- Closing narrower project div -->
 
   </body>
 
