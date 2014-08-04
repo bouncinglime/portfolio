@@ -2,16 +2,19 @@
 
 /* define default styling for everything */
 body {
-    font-family: Georgia;
+    font-family: Courier New;
     cursor: default;
     max-width: 1400px;
     margin: 0 auto;
+    color: #575057;
+    background-color: #fdf6e3;
 }
 
 a {
+    font-family: Andale Mono;
     text-decoration: none;
     font-weight: bold;
-    text-shadow:2px 2px 4px grey;
+/*    text-shadow:2px 2px 4px grey; */
     color: black;
 }
 
@@ -51,6 +54,16 @@ h1 {
     width: 480px;
     margin-right: 10px;
     margin-bottom: 20px;
+}
+
+.hero {
+    margin-right: 5px;
+    padding: 2px;
+    border: 3px solid #021a40;
+    background-color: grey;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 
 .rightimg {
@@ -111,6 +124,11 @@ expl {
     position: absolute;
     margin-top: 3em;
     font-size: 16pt;
+}
+
+huge {
+    font-size: 250px;
+    line-height: 1em;
 }
 
 
