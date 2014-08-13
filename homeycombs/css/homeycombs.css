@@ -77,8 +77,7 @@ h1 {
 .leftimg {
     float: left;
     width: 300px;
-    margin-top: 1em;
-    margin-left: 2em;
+    margin-top: 3em;
     margin-right: 10px;
     margin-bottom: 20px;
 }
@@ -90,11 +89,16 @@ h1 {
     margin-top: 20px;
 }
 
-.imgnav {
-    float: left;
-    width: 150px;
+.sidebar {
+    float: right;
+    width: 200px;
     margin-right: 10px;
     margin-bottom: 20px;
+    background: grey;
+}
+
+.imgnav {
+    width: 175px;
 }
 
 text {
@@ -118,12 +122,6 @@ expl {
     color: grey;
     font-size: 12pt;
     font-style: italic;
-}
-
-.navlabel {
-    position: absolute;
-    margin-top: 3em;
-    font-size: 16pt;
 }
 
 huge {
