@@ -1,0 +1,111 @@
+/* Main Body Definition */
+
+/* define default styling for everything */
+body {
+    font-family: Courier New, monospace;
+    cursor: default;
+    max-width: 1400px;
+    margin: 0 auto;
+    color: #575057;
+    background-color: #fdf6e3;
+}
+
+a {
+    font-family: Andale Mono, Museo-300, monospace;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow:2px 2px 4px grey;
+    color: black;
+}
+
+/* position and size of chop in corner */
+.chop {
+    height: 100px;
+    position: fixed;
+    top: 15px;
+    z-index: 1;
+}
+
+/* style and position page title */
+h1 {
+    font-size: 50px;
+    margin-left: 120px;
+}
+
+/* style and position hex label */
+.hexlabel {
+    position: absolute;
+    margin-top: 2em;
+    font-size: 30pt;
+    height: 100%;
+    width: 100%;
+    color: #000;
+    z-index: 1;
+}
+
+/* styling for project pages */
+.narrow {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.headimg {
+    float: left;
+    width: 480px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.hero {
+    margin-right: 5px;
+    padding: 2px;
+    border: 3px solid #021a40;
+    background-color: grey;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.rightimg {
+    float: right;
+    width: 300px;
+    margin-top: 3em;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.leftimg {
+    float: left;
+    width: 300px;
+    margin-top: 3em;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+text {
+    font-size: 14pt;
+    line-height: 1.2em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+br {
+   line-height: 2em;
+}
+
+label {
+    font-weight: bold;
+    font-size: 25pt;
+    line-height: 2em;
+}
+
+expl {
+    color: grey;
+    font-size: 12pt;
+    font-style: italic;
+}
+
+huge {
+    font-size: 250px;
+    line-height: 1em;
+}

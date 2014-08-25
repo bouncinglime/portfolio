@@ -86,7 +86,7 @@
                 var left = 0; // pos left
                 var top = 0; // pos top
                 
-                var cols = 0; // originally 0; changed to 2 to move everything to left side of window
+                var cols = 2; // originally 0; changed to move everything to left side of window
                 
                 $(element).find('.comb').each(function(index){
                     
