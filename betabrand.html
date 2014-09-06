@@ -13,11 +13,12 @@
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="homeycombs/css/homeycombs.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css" /> <!-- for lightbox -->
     <!-- title -->
     <title>Marielle Hsu - betabrand</title>
-    <!-- pulling jquery from google & local script -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="homeycombs/js/jquery.homeycombs.js"></script>
+    <!-- load js for lightbox-->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/lightbox.js"></script>
   </head>
 
 
@@ -34,16 +35,17 @@
       <h1>betabrand</h1>
 
       <!-- two hexagons that restack when window is small -->
-      <div>
-	<img class="headimg" src="images/bb/bb-sketch.png" />
-	<a href="http://invis.io/JR18IJ5W5"> <!-- link to prototype -->
-	  <img class="headimg" src="images/bb/bb-digi.png" title="Open clickable prototype in Invision." />
+      <div id="gallery">
+	<a href="images/bb/WireframeSketches.jpg" data-lightbox="head" data-title="Wireframe ideas.">
+	  <img class="headimg" src="images/bb/bb-sketch.png" />
 	</a>
       </div>
+      <a href="http://invis.io/JR18IJ5W5" target="_blank"> <!-- link to prototype -->
+	<img class="headimg" src="images/bb/bb-digi.png" title="Open clickable prototype in Invision." />
+      </a>
 
       <!-- forcing everything else below hexagons -->
-      <div style="clear: both;">
-      </div>
+      <div style="clear: both;"></div>
 
       <!-- Project Title -->
       <label>Website redesign for <a href="http://betabrand.com">betabrand</a></label>
@@ -52,10 +54,10 @@
       <br /><expl>Second project for General Assembly's UXDi program.</expl>
       <text>
 	<br />Betabrand is an online clothing community based in San Francisco, California. They design, manufacture, and release new products in small batches frequently. Unlike typical e-commerce retailers, Betabrand also offers a highly-curated inventory of fan designed and crowdfunded clothing.  We were lucky enough to be able to talk to the product manager about their current struggles, as well as get detailed information about what they were looking to highlight on their site.
+      </text>
 
       <!-- forcing everything else below text -->
-      <div style="clear: both;">
-      </div>
+      <div style="clear: both;"></div>
 
       <!-- Creating more space between. -->
       <br />
@@ -67,8 +69,7 @@
       <div class="summary"><label>Outfit</label><br />Omnigraffle, <br />Invision, <br />Google Slides.</div>
 
       <!-- forcing everything else below summary -->
-      <div style="clear: both;">
-      </div>
+      <div style="clear: both;"></div>
 
       <label>My Role</label>
       <text><br />For this solo project, we were provided with a problem statement, personas and user flows. It required user research and testing, sketches, a paper prototype, wireframes, and a clickable prototype. I also synthesized user feedback, and from that created new Information Architecture and a site map.
@@ -78,23 +79,33 @@
       <br />
 
       <!-- ALWAYS BEFORE TEXT when text flows around image -->
-      <img class="leftimg" src="images/bb/bb-research.png" />
+      <div id="gallery">
+	<a href="images/bb/WireframeSketches.jpg" data-lightbox="research" data-title="Sketches for potential wireframes.">
+	  <img class="leftimg" src="images/bb/bb-research.png" />
+	</a>
+	<a href="images/bb/HomeComparisons.jpg" data-lightbox="research" data-title="Comparison of home pages of other boutique clothing shops."></a>
+	<!-- <a href="images/bb/" data-lightbox="research" data-title=""></a> -->
+      </div>
       <!-- Research -->
-	<label id="research">Research</label>
-	<text>
-	  <br />The first step was to figure out where betabrand fell in the marketplace. I quickly discovered that they don't have any direct competition - there are other sites doing crowdsourcing of various types, and there are other local SF clothing retailers, but no one is doing both. This is both fantastic (because they can do whatever they want without needing to worry about losing marketshare to anyone) but also difficult (because there is no standard to unify the experience).
-	  <br />After hearing from their product manager about some of the internal pain points, the next step was to get user feedback about the current site. I did several cardsorting sessions with friends, as well as had them walk me through the user journeys we were given on the current site.
-	  <br />All of this user and market research pointed to two very specific ways to improve the site : simplifiying the Information Architecture, and providing more information about their crowdsourcing/funding section without too many clicks.
+      <label id="research">Research</label>
+      <text>
+	<br />The first step was to figure out where betabrand fell in the marketplace. I quickly discovered that they don't have any direct competition - there are other sites doing crowdsourcing of various types, and there are other local SF clothing retailers, but no one is doing both. This is both fantastic (because they can do whatever they want without needing to worry about losing marketshare to anyone) but also difficult (because there is no standard to unify the experience).
+	<br />After hearing from their product manager about some of the internal pain points, the next step was to get user feedback about the current site. I did several cardsorting sessions with friends, as well as had them walk me through the user journeys we were given on the current site.
+	<br />All of this user and market research pointed to two very specific ways to improve the site : simplifiying the Information Architecture, and providing more information about their crowdsourcing/funding section without too many clicks.
       </text>
       <!-- forcing everything else below previous -->
-      <div style="clear: both;">
-      </div>
+      <div style="clear: both;"></div>
       <!-- Creating more space between. -->
       <br />
       <br />
 
       <!-- ALWAYS BEFORE TEXT when text flows around image -->
-      <img class="rightimg" src="images/bb/bb-infoarch.png" />
+      <div id="gallery">
+	<a href="images/bb/SiteMapSketch.png" data-lightbox="infoarch" data-title="">
+	  <img class="rightimg" src="images/bb/bb-infoarch.png" />
+	</a>
+	<a href="images/bb/SiteMap.jpg" data-lightbox="infoarch" data-title=""></a>
+      </div>
       <!-- Information Architeture -->
       <label id="infoarch">Information Architecture</label>
       <text>
@@ -102,14 +113,18 @@
 	<br />I first attempted to reorganize the current sections, but quickly realized that I was jumping ahead. I went back to the user journeys, and the feedback I had gotten from testers. This allowed me to sketch a simple flow for each, which was critical to understanding the way users would expect a site to be structured. I was then able to extrapolate it into a full site map that allowed for future expansion and addition of products.
       </text>
       <!-- forcing everything else below previous -->
-      <div style="clear: both;">
-      </div>
+      <div style="clear: both;"></div>
       <!-- Creating more space between. -->
       <br />
       <br />
 
       <!-- ALWAYS BEFORE TEXT when text flows around image -->
-      <img class="leftimg" src="images/bb/bb-wire.png" />
+      <div id="gallery">
+	<a href="images/bb/Home.jpg" data-lightbox="anno" data-title="Annotated wireframes.">
+	  <img class="leftimg" src="images/bb/bb-wire.png" />
+	</a>
+	<a href="" data-lightbox="" data-title=""></a>
+      </div>
       <!-- Sketching -->
       <label id="sketching">Sketching & Wireframes</label>
       <text>
@@ -117,8 +132,7 @@
 	<br />Once I had something that worked for most people, I moved on to high-fidelity wireframes.
       </text>
       <!-- forcing everything else below previous -->
-      <div style="clear: both;">
-      </div>
+      <div style="clear: both;"></div>
       <!-- Creating more space between. -->
       <br />
       <br />
@@ -132,6 +146,9 @@
       </text>
 
     </div> <!-- Closing narrower project div -->
+
+    <!-- loading js for lightbox gallery -->
+    <script src="js/gallery.js"></script>
 
   </body>
 
