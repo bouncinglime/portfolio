@@ -16,11 +16,9 @@
     <link rel="stylesheet" type="text/css" href="css/lightbox.css" /> <!-- for lightbox -->
     <!-- title -->
     <title>Marielle Hsu - PowerReviews</title>
-    <!-- pulling jquery from google & local script -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="homeycombs/js/jquery.homeycombs.js"></script>
-    <script src="js/jquery-1.11.0.min.js"></script> <!-- for lightbox -->
-    <script src="js/lightbox.min.js"></script> <!-- for lightbox -->
+    <!-- load js for lightbox-->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/lightbox.js"></script>
   </head>
 
 
@@ -37,14 +35,16 @@
       <h1>PowerReviews</h1>
 
       <!-- two hexagons that restack when window is small -->
-      <div>
-	<a href="images/pr/ClientNotes.jpg" data-lightbox="image-1" data-title="power reviews sketch">
-	<img class="headimg" src="images/pr/PR-sketch.png" />
-	</a>
+      <div id="gallery">
+	  <a href="images/pr/ClientNotes.jpg" data-lightbox="sketch" data-title="power reviews sketch">
+	    <img class="headimg" src="images/pr/PR-sketch.png" />
+	  </a>
+	  <a href="images/yellow.png" data-lightbox="sketch"></a>
+	  <a href="images/blue.png" data-lightbox="sketch"></a>
+	</div>
 	<a href="images/pr/prototype.pdf" target="_blank"> <!-- link to pdf of prototype -->
 	  <img class="headimg" src="images/pr/PR-digi.png" title="Open clickable PDF of prototype." />
 	</a>
-      </div>
 
       <!-- forcing everything else below hexagons -->
       <div style="clear: both;">
@@ -144,6 +144,9 @@
       <br />
 
     </div> <!-- Closing narrower project div -->
+
+    <!-- loading js for lightbox gallery -->
+    <script src="js/gallery.js"></script>
 
   </body>
 
