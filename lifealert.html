@@ -13,11 +13,12 @@
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="homeycombs/css/homeycombs.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css" /> <!-- for lightbox -->
     <!-- title -->
     <title>Marielle Hsu - LifeAlert</title>
-    <!-- pulling jquery from google & local script -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="homeycombs/js/jquery.homeycombs.js"></script>
+    <!-- load js for lightbox-->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/lightbox.js"></script>
   </head>
 
 
@@ -34,13 +35,15 @@
       <h1>LifeAlert</h1>
 
       <!-- two hexagons that restack when window is small -->
-      <div>
-	<img class="headimg" src="images/la/la-sketch.png" />
-	<a href="http://invis.io/RC10L94GA"> <!-- link to clickable prototype -->
-	  <img class="headimg" src="images/la/la-digi.png" title="Open clickable PDF of prototype." />
+      <div id="gallery">
+	<a href="images/la/ConceptMap.jpg" data-lightbox="head" data-title="Concept map based on persona concerns and user feedback, used to identify most important areas to address.">
+	  <img class="headimg" src="images/la/la-sketch.png" />
 	</a>
       </div>
-
+      <a href="http://invis.io/RC10L94GA"> <!-- link to clickable prototype -->
+	<img class="headimg" src="images/la/la-digi.png" title="Open clickable PDF of prototype." />
+      </a>
+      
       <!-- forcing everything else below hexagons -->
       <div style="clear: both;">
       </div>
@@ -78,13 +81,19 @@
       <br />
 
       <!-- ALWAYS BEFORE TEXT when text flows around image -->
-      <img class="leftimg" src="images/la/la-research.png" />
+      <div id="gallery">
+	<a href="images/la/UserFeedback.jpg" data-lightbox="research" data-title="Comparison chart of user feedback on the original site and brand perception.">
+	  <img class="leftimg" src="images/la/la-research.png" />
+	</a>
+	<a href="images/la/research-A.jpg" data-lightbox="research" data-title="AARP report on senior usage of medical alert devices."></a>
+	<a href="images/la/research-D.jpg" data-lightbox="research" data-title="Deloitte report on computer usage among seniors, used to justify our focus from current to potential users of LifeAlert."></a>
+	<a href="images/la/research-P.jpg" data-lightbox="research" data-title="Pew Research report on computer and cell phone usage among seniors and older adults; these numbers are only going to increase as time goes on."></a>
       <!-- Research -->
       <label id="research">Research</label>
       <text>
 	<br />It was difficult at first to find users, especially on our one-week time frame. However, we hit the pavement and were able to find a number of friendly people on the street who were happy to share their ideas and experiences with medical alert devices.
-	<br />I wrote up several user surveys that we sent out to friends and family about their perception of LifeAlert, which was incredibly useful. We then sent out a follow-up survey containing our prototype to gauge the change in perception, both from people who had responded to the initial survey as well as from those who hadn't.
-	<br />The information from our first perception survey is what we took to the instructors to back up our request to change the scope of the project to a full rebranding of the service.
+	<br />I wrote up several user surveys that we sent out to friends and family about their perception of LifeAlert, which was incredibly useful. We then sent out a follow-up survey containing our prototype to gauge the change in perception, both from people who had responded to the initial survey as well as from those who hadn't. The information from our first perception survey is what we took to the instructors to back up our request to change the scope of the project to a full rebranding of the service.
+	<br />We also looked into reports about web browsing and buying habits from the likes of AARP and Deloitte, compared the offerings of other medical alert device companies, and did some prototyping with users.
       </text>
       <!-- forcing everything else below previous -->
       <div style="clear: both;">
@@ -94,7 +103,62 @@
       <br />
 
       <!-- ALWAYS BEFORE TEXT when text flows around image -->
-      <img class="rightimg" src="images/la/la-audit.png" />
+      <div id="gallery">
+	<a href="images/la/Brad.jpg" data-lightbox="persona" data-title="Brad.">
+	  <img class="rightimg" src="images/la/LA-persona.png" />
+	</a>
+	<a href="images/la/Brad-story.jpg" data-lightbox="persona" data-title="Storyboard for Brad."></a>
+	<a href="images/la/Brad-flow.jpg" data-lightbox="persona" data-title="Brad's flow through the new site."></a>
+	<a href="images/la/Cathie.jpg" data-lightbox="persona" data-title="Cathie."></a>
+	<a href="images/la/Cathie-story.jpg" data-lightbox="persona" data-title="Storyboard for Cathie."></a>
+	<a href="images/la/Cathie-flow.jpg" data-lightbox="persona" data-title="Cathie's flow through the new site."></a>
+	<a href="images/la/Edith.jpg" data-lightbox="persona" data-title="Edith."></a>
+	<a href="images/la/Edith-story.jpg" data-lightbox="persona" data-title="Storyboard for Edith."></a>
+	<a href="images/la/Edith-flow.jpg" data-lightbox="persona" data-title="Edith's flow through the new site."></a>
+      </div>
+      <!-- Personas -->
+      <label id="persona">Personas</label>
+      <text>
+	<br />Although the original brief asked for improved digital solutions for current subscribers, our research indicated that there was an opportunity to make a bigger impact by reaching out to people who are not currently users. From that research, we identified three main groups of users which eventually became our three personas of Brad, Cathie, and Edith.
+	<br />Each of these personas addressed an issue with the current perception of LifeAlert, and allowed us to frame our re-branding through their experience. While digging deeper into the motivations for these personas, we came up with the three main groupings that we present on the new LifeAlert home page : staying active, being safe, and living independently. When we took these concepts back to users, they resonated well. We finally had the ideas we needed to move forward.
+      </text>
+      <!-- forcing everything else below previous -->
+      <div style="clear: both;"></div>
+      <!-- Creating more space between. -->
+      <br />
+      <br />
+
+      <!-- ALWAYS BEFORE TEXT when text flows around image -->
+      <div id="gallery">
+	<a href="images/la/UserFlows1.jpg" data-lightbox="sketch" data-title="Initial sketches for user flows.">
+	  <img class="leftimg" src="images/la/la-sketch.png" />
+	</a>
+	<a href="images/la/UserFlows2.jpg" data-lightbox="sketch" data-title="More user flow ideas."></a>
+	<a href="images/la/SiteMapOverview.jpg" data-lightbox="sketch" data-title="Our initial, and very ambitious, plan for the site. This includes a members-only area that would allow users to log in and customize their experience."></a>
+	<a href="images/la/SwapProduct.jpg" data-lightbox="sketch" data-title="Initial sketch for a product detail page."></a>
+	<a href="images/la/SwapActive.jpg" data-lightbox="sketch" data-title="Initial sketch for a 'Lifestyle' page - defined by user goals. This is for the 'Staying Active' one, though the basic layout is identical for all."></a>
+      </div>
+      <!-- Sketching -->
+      <label id="sketching">Sketching</label>
+      <text>
+	<br />Our initial ideas for the site were very ambitious - we wanted to create a whole online billing process, as well as a user admin section where individuals with LifeAlert could log in and change their settings. Some sketches were done for these ideas, but they were quickly sidelined due to time constraints.
+	<br />Based on the <a href="betabrand.html">previous class project</a>, we had a decent amount of information about standards for retail sites. However, the user base for LifeAlert is very different from that of betabrand, so we did more research.
+      </text>
+      <!-- forcing everything else below previous -->
+      <div style="clear: both;"></div>
+      <!-- Creating more space between. -->
+      <br />
+      <br />
+
+      <!-- ALWAYS BEFORE TEXT when text flows around image -->
+      <div id="gallery">
+	<a href="images/la/images.jpg" data-lightbox="audit" data-title="All of the imagery on the current LifeAlert site is inconsistent and fear-inducing.">
+	  <img class="rightimg" src="images/la/la-audit.png" />
+	</a>
+	<a href="images/la/fonts.jpg" data-lightbox="audit" data-title="There are a lot of different font variations on each page."></a>
+	<a href="images/la/text.jpg" data-lightbox="audit" data-title="The readablity of the LifeAlert site also leaves something to be desired; the text is tiny, reaches the full width of a browser window, and is not well-aligned."></a>
+	<a href="images/la/buttons.jpg" data-lightbox="audit" data-title="Each of these is a button on the original site. There is nothing to inform the user that they are clickable."></a>
+      </div>
       <!-- Site Audit -->
       <label id="site-audit">Site Audit</label>
       <text>
@@ -109,7 +173,12 @@
       <br />
 
       <!-- ALWAYS BEFORE TEXT when text flows around image -->
-      <img class="leftimg" src="images/la/la-infoarch.png" />
+      <div id="gallery">
+	<a href="images/la/SiteMap.jpg" data-lightbox="infoarch" data-title="Final site map, including a placeholder for our 'admin panel'. Page components are listed as part of the 'chunking' of information - repeated items would be the same across pages.">
+	  <img class="leftimg" src="images/la/la-infoarch.png" />
+	</a>
+	<a href="images/la/ContentSorting.jpg" data-lightbox="infoarch" data-title="Content Sorting with post-its based on user feedback that helped define both content chunks for the site and the overall site flow."></a>
+      </div>
       <!-- Information Architeture -->
       <label id="infoarch">Information Architecture</label>
       <text>
