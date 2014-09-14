@@ -109,9 +109,10 @@ text {
     margin-bottom: 20px;
 }
 
-br {
-   line-height: 2em;
-}
+/*br {
+ *  line-height: 2em;
+*}
+*/
 
 label {
     font-weight: bold;
