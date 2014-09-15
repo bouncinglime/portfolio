@@ -39,11 +39,14 @@ a {
 }
 
 /* position and size of chop in corner */
+div.chop {
+    position: fixed;
+    z-index: 1;
+}
+
 .chop {
     height: 100px;
-    position: fixed;
     top: 15px;
-    z-index: 1;
 }
 
 /* style and position page title */
