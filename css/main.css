@@ -1,4 +1,4 @@
-/** Importing info for Museo-300 web font. Used on Windows only.
+/** Importing info for Museo-300 web font.
  *
  * @license
  * MyFonts Webfont Build ID 2865127, 2014-08-18T15:55:09-0400
@@ -9,7 +9,7 @@
  * License: http://www.myfonts.com/viewlicense?type=web&buildid=2865127
  * Licensed pageviews: 10,000
  * 
- * Â© 2014 MyFonts Inc
+ * © 2014 MyFonts Inc
  *
  * @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/2bb7e7");  
@@ -23,7 +23,7 @@
 
 /* define default styling for everything */
 body {
-    font-family: Courier New, Courier, monospace;
+    font-family: Museo-300, monospace;
     cursor: default;
     max-width: 1400px;
     margin: 0 auto;
@@ -91,7 +91,7 @@ h1 {
 
 .rightimg {
     float: right;
-    width: 300px;
+    width: 400px;
     margin-top: 3em;
     margin-left: 10px;
     margin-bottom: 20px;
@@ -99,7 +99,7 @@ h1 {
 
 .leftimg {
     float: left;
-    width: 300px;
+    width: 400px;
     margin-top: 3em;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -111,11 +111,6 @@ text {
     text-align: left;
     margin-bottom: 20px;
 }
-
-/*br {
- *  line-height: 2em;
-*}
-*/
 
 label {
     font-weight: bold;
@@ -142,5 +137,5 @@ huge {
     float: left;
     width: 240px;
     height: 250px;
-    background-color: #DFDACC;
+    background-color: lightgrey;
 }
