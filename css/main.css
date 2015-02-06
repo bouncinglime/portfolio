@@ -12,7 +12,7 @@
  * © 2014 MyFonts Inc
  *
  * @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/2bb7e7");  
+@import url("http://hello.myfonts.net/count/2bb7e7");  
 @font-face {
     font-family: 'Museo-300';
     src: url('../webfonts/2BB7E7_1_0.eot');
@@ -23,7 +23,7 @@
 
 /* define default styling for everything */
 body {
-    font-family: Museo-300, monospace;
+    font-family: Museo-300;
     cursor: default;
     max-width: 1400px;
     margin: 0 auto;
@@ -32,7 +32,7 @@ body {
 }
 
 a {
-    font-family: Andale Mono, Museo-300, monospace;
+    font-family: Andale Mono, Museo-300;
     text-decoration: none;
     font-weight: bold;
     color: black;
