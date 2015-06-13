@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="765"
+   height="990"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="305.61137"
+     inkscape:cy="219.1409"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:showpageshadow="false"
+     gridtolerance="5"
+     guidetolerance="5"
+     objecttolerance="5"
+     inkscape:window-width="1280"
+     inkscape:window-height="662"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       spacingx="50px"
+       spacingy="50px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-62.362183)">
+    <g
+       id="g4643"
+       transform="matrix(0.53627305,0,0,0.53627305,89.309626,287.83315)">
+      <g
+         transform="translate(-215.04071,584.77382)"
+         id="g4203">
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4355"
+           style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+           transform="translate(-24.679921,-293.69919)"><flowRegion
+             id="flowRegion4357"><rect
+               id="rect4359"
+               width="196"
+               height="168"
+               x="41"
+               y="712"
+               style="font-size:11px;font-family:Museo 300;-inkscape-font-specification:Museo 300" /></flowRegion><flowPara
+             id="flowPara4334"
+             style="text-align:center;text-anchor:middle">paper prototype</flowPara><flowPara
+             id="flowPara4756"
+             style="text-align:center;text-anchor:middle">POPapp (mobile and web)</flowPara><flowPara
+             id="flowPara4760"
+             style="text-align:center;text-anchor:middle">pen and paper</flowPara></flowRoot>        <path
+           sodipodi:type="star"
+           style="fill:none;stroke:#fc5b3f;stroke-width:2.25788546;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="path4104-7"
+           sodipodi:sides="6"
+           sodipodi:cx="300"
+           sodipodi:cy="140"
+           sodipodi:r1="110.45361"
+           sodipodi:r2="95.655632"
+           sodipodi:arg1="0"
+           sodipodi:arg2="0.52359878"
+           inkscape:flatsided="true"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 410.45361,140 -55.2268,95.65564 -110.45362,0 L 189.54639,140 l 55.2268,-95.655635 110.45362,0 z"
+           transform="matrix(0.88578455,0,0,0.88578455,-154.96111,314.20935)" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4429-5"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="matrix(0.5,-0.8660254,0.8660254,0.5,-26.473095,431.34552)"><flowRegion
+             id="flowRegion4431-5"><rect
+               id="rect4433-1"
+               width="298"
+               height="91"
+               x="34"
+               y="19" /></flowRegion><flowPara
+             id="flowPara4435-7"
+             style="font-size:22.5px;font-family:Museo 700;-inkscape-font-specification:Museo 700">TOOLS</flowPara></flowRoot>      </g>
+      <g
+         transform="translate(-219.90567,604.77382)"
+         id="g4266">
+        <path
+           sodipodi:type="star"
+           style="fill:none;stroke:none"
+           id="path3043"
+           sodipodi:sides="6"
+           sodipodi:cx="115.01695"
+           sodipodi:cy="540"
+           sodipodi:r1="116.49153"
+           sodipodi:r2="100.88462"
+           sodipodi:arg1="0"
+           sodipodi:arg2="0.52359878"
+           inkscape:flatsided="true"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 231.50848,540 -58.24576,100.88463 -116.491533,0 L -1.4745789,540 56.771187,439.11537 l 116.491533,0 z"
+           transform="matrix(0.86687033,0,0,0.8709788,195.43231,-142.34194)" />
+        <flowRoot
+           xml:space="preserve"
+           style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+           id="flowRoot3841"><flowRegion
+             id="flowRegion3843"><use
+               height="990"
+               width="765"
+               x="0"
+               y="0"
+               xlink:href="#path3043"
+               id="use3845" /></flowRegion><flowPara
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Museo 700;-inkscape-font-specification:Museo 700 Semi-Bold"
+             id="flowPara3847">Website rebrands :</flowPara><flowPara
+             id="flowPara3849">stakeholder interviews, user research, partner collaboration and communication, client communication, card sorting, understanding a project brief, time management, market and competitive research, information architecture, wireframing, appropriate use of design triggers.</flowPara></flowRoot>        <path
+           sodipodi:type="star"
+           style="fill:none;stroke:#fcb03c;stroke-width:4.88131428;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="path4104-4"
+           sodipodi:sides="6"
+           sodipodi:cx="300"
+           sodipodi:cy="140"
+           sodipodi:r1="110.45361"
+           sodipodi:r2="95.655632"
+           sodipodi:arg1="0"
+           sodipodi:arg2="0.52359878"
+           inkscape:flatsided="true"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 410.45361,140 -55.2268,95.65564 -110.45362,0 L 189.54639,140 l 55.2268,-95.655635 110.45362,0 z"
+           transform="matrix(1.0243143,0,0,1.0243143,-12.959233,184.19779)" />
+      </g>
+      <g
+         transform="translate(-221.87072,584.77382)"
+         id="g4275">
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4335"
+           style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+           transform="translate(-30.076376,-85.736969)"><flowRegion
+             id="flowRegion4337"><rect
+               id="rect4339"
+               width="177"
+               height="136"
+               x="238"
+               y="580"
+               style="font-size:11px;font-family:Museo 300;-inkscape-font-specification:Museo 300" /></flowRegion><flowPara
+             style="text-align:center;text-anchor:middle"
+             id="flowPara4341">Google Drive</flowPara><flowPara
+             style="text-align:center;text-anchor:middle"
+             id="flowPara4343">Google Forms</flowPara><flowPara
+             style="text-align:center;text-anchor:middle"
+             id="flowPara4345">group collaboration</flowPara><flowPara
+             style="text-align:center;text-anchor:middle"
+             id="flowPara4347">Zurb.com design triggers</flowPara><flowPara
+             id="flowPara3165"
+             style="text-align:center;text-anchor:middle">pen and paper</flowPara><flowPara
+             style="text-align:center;text-anchor:middle"
+             id="flowPara4349">Omnigraffle</flowPara><flowPara
+             style="text-align:center;text-anchor:middle"
+             id="flowPara4353">whiteboard</flowPara><flowPara
+             id="flowPara4315"
+             style="text-align:center;text-anchor:middle">Invision</flowPara></flowRoot>        <path
+           transform="matrix(0.88578455,0,0,0.88578455,30.564737,417.33127)"
+           d="m 410.45361,140 -55.2268,95.65564 -110.45362,0 L 189.54639,140 l 55.2268,-95.655635 110.45362,0 z"
+           inkscape:randomized="0"
+           inkscape:rounded="0"
+           inkscape:flatsided="true"
+           sodipodi:arg2="0.52359878"
+           sodipodi:arg1="0"
+           sodipodi:r2="95.655632"
+           sodipodi:r1="110.45361"
+           sodipodi:cy="140"
+           sodipodi:cx="300"
+           sodipodi:sides="6"
+           id="path4104-7-0"
+           style="fill:none;stroke:#fcb03c;stroke-width:2.25788546;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           sodipodi:type="star" />
+      </g>
+      <g
+         transform="translate(-219.90567,809.50682)"
+         id="g4356">
+        <path
+           sodipodi:type="star"
+           style="fill:none;stroke:none"
+           id="path3043-1"
+           sodipodi:sides="6"
+           sodipodi:cx="115.01695"
+           sodipodi:cy="540"
+           sodipodi:r1="116.49153"
+           sodipodi:r2="100.88462"
+           sodipodi:arg1="0"
+           sodipodi:arg2="0.52359878"
+           inkscape:flatsided="true"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 231.50848,540 -58.24576,100.88463 -116.491533,0 L -1.4745789,540 56.771187,439.11537 l 116.491533,0 z"
+           transform="matrix(0.86687033,0,0,0.8709788,372.77807,-246.24814)" />
+        <flowRoot
+           xml:space="preserve"
+           style="font-size:11.02086353px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           id="flowRoot3869"><flowRegion
+             id="flowRegion3871"><use
+               height="990"
+               width="765"
+               x="0"
+               y="0"
+               xlink:href="#path3043-1"
+               id="use3873" /></flowRegion><flowPara
+             style="font-size:11px;line-height:125%;font-family:Museo 700;-inkscape-font-specification:Museo 700"
+             id="flowPara3875">Visual design and front-end web development :</flowPara><flowPara
+             style="font-size:11px;line-height:125%;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+             id="flowPara3879">HTML, CSS, JavaScript, jquery, version control, security, typography, layout, intuitive flow, grid systems, color palettes, mood boards, personal branding.</flowPara></flowRoot>        <path
+           transform="matrix(1.0243143,0,0,1.0243143,166.55998,80.595998)"
+           d="m 410.45361,140 -55.2268,95.65564 -110.45362,0 L 189.54639,140 l 55.2268,-95.655635 110.45362,0 z"
+           inkscape:randomized="0"
+           inkscape:rounded="0"
+           inkscape:flatsided="true"
+           sodipodi:arg2="0.52359878"
+           sodipodi:arg1="0"
+           sodipodi:r2="95.655632"
+           sodipodi:r1="110.45361"
+           sodipodi:cy="140"
+           sodipodi:cx="300"
+           sodipodi:sides="6"
+           id="path4104-4-9"
+           style="fill:none;stroke:#6fb07f;stroke-width:4.88131428;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           sodipodi:type="star" />
+      </g>
+      <g
+         transform="translate(-223.69729,789.50682)"
+         id="g4420">
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4109"
+           style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+           transform="translate(-40.739166,-312.36279)"><flowRegion
+             id="flowRegion4111"><rect
+               id="rect4113"
+               width="175"
+               height="122"
+               x="431"
+               y="690"
+               style="font-size:11px;font-family:Museo 300;-inkscape-font-specification:Museo 300" /></flowRegion><flowPara
+             style="text-align:center;text-anchor:middle"
+             id="flowPara4277">emacs</flowPara><flowPara
+             id="flowPara4744"
+             style="text-align:center;text-anchor:middle">Notepad++</flowPara><flowPara
+             style="text-align:center;text-anchor:middle"
+             id="flowPara4279">Google Drive</flowPara><flowPara
+             id="flowPara4734"
+             style="text-align:center;text-anchor:middle">scissors and glue</flowPara><flowPara
+             id="flowPara4764"
+             style="text-align:center;text-anchor:middle">pen and paper</flowPara><flowPara
+             id="flowPara4736"
+             style="text-align:center;text-anchor:middle">Omnigraffle</flowPara><flowPara
+             style="text-align:center;text-anchor:middle"
+             id="flowPara4283">whiteboard</flowPara><flowPara
+             id="flowPara4701"
+             style="text-align:center;text-anchor:middle">Invision</flowPara><flowPara
+             style="text-align:center;text-anchor:middle"
+             id="flowPara4685">github</flowPara></flowRoot>        <path
+           sodipodi:type="star"
+           style="fill:none;stroke:#6fb07f;stroke-width:2.25788546;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="path4104-7-0-4"
+           sodipodi:sides="6"
+           sodipodi:cx="300"
+           sodipodi:cy="140"
+           sodipodi:r1="110.45361"
+           sodipodi:r2="95.655632"
+           sodipodi:arg1="0"
+           sodipodi:arg2="0.52359878"
+           inkscape:flatsided="true"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 410.45361,140 -55.2268,95.65564 -110.45362,0 L 189.54639,140 l 55.2268,-95.655635 110.45362,0 z"
+           transform="matrix(0.88578455,0,0,0.88578455,211.91052,314.45527)" />
+      </g>
+      <g
+         transform="translate(-219.90567,809.50682)"
+         id="g4435">
+        <path
+           sodipodi:type="star"
+           style="fill:none;stroke:none"
+           id="path3043-4"
+           sodipodi:sides="6"
+           sodipodi:cx="115.01695"
+           sodipodi:cy="540"
+           sodipodi:r1="116.49153"
+           sodipodi:r2="100.88462"
+           sodipodi:arg1="0"
+           sodipodi:arg2="0.52359878"
+           inkscape:flatsided="true"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 231.50848,540 -58.24576,100.88463 -116.491533,0 L -1.4745789,540 56.771187,439.11537 l 116.491533,0 z"
+           transform="matrix(0.86687033,0,0,0.8709788,550.12384,-142.92049)" />
+        <flowRoot
+           xml:space="preserve"
+           style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+           id="flowRoot3905"><flowRegion
+             id="flowRegion3907"><use
+               height="990"
+               width="765"
+               x="0"
+               y="0"
+               xlink:href="#path3043-4"
+               id="use3909" /></flowRegion><flowPara
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Museo 700;-inkscape-font-specification:Museo 700 Semi-Bold"
+             id="flowPara3911">Client work :</flowPara><flowPara
+             id="flowPara3913">communication,</flowPara><flowPara
+             id="flowPara4459">scope creep, setting expectations, user research and interviews, mockups, and all of the previous.</flowPara></flowRoot>        <path
+           sodipodi:type="star"
+           style="fill:none;stroke:#068587;stroke-width:4.88131428;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="path4104-4-9-8"
+           sodipodi:sides="6"
+           sodipodi:cx="300"
+           sodipodi:cy="140"
+           sodipodi:r1="110.45361"
+           sodipodi:r2="95.655632"
+           sodipodi:arg1="0"
+           sodipodi:arg2="0.52359878"
+           inkscape:flatsided="true"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 410.45361,140 -55.2268,95.65564 -110.45362,0 L 189.54639,140 l 55.2268,-95.655635 110.45362,0 z"
+           transform="matrix(1.0243143,0,0,1.0243143,345.88622,184.19779)" />
+      </g>
+      <g
+         transform="translate(-217.90567,546.77382)"
+         id="g4245">
+        <g
+           id="g3105"
+           transform="translate(-6,6)">
+          <path
+             transform="matrix(1.017861,0,0,1.0146756,422.4861,-592.09018)"
+             d="m 310,760 -100,173.20508 -200,0 L -90,760 10,586.79492 l 200,0 z"
+             inkscape:randomized="0"
+             inkscape:rounded="0"
+             inkscape:flatsided="true"
+             sodipodi:arg2="0.52359878"
+             sodipodi:arg1="0"
+             sodipodi:r2="173.20508"
+             sodipodi:r1="200"
+             sodipodi:cy="760"
+             sodipodi:cx="110"
+             sodipodi:sides="6"
+             id="path3113-1"
+             style="fill:none;stroke:#808080;stroke-width:3.93597341;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+             sodipodi:type="star" />
+          <flowRoot
+             xml:space="preserve"
+             id="flowRoot4429-3"
+             style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             transform="matrix(0.5,-0.8660254,0.8660254,0.5,289.83303,164.67042)"><flowRegion
+               id="flowRegion4431-6"><rect
+                 id="rect4433-17"
+                 width="298"
+                 height="91"
+                 x="34"
+                 y="19" /></flowRegion><flowPara
+               id="flowPara4435-6"
+               style="font-size:28px;font-family:Museo 700;-inkscape-font-specification:Museo 700">EXPERIENCE</flowPara></flowRoot>        </g>
+        <path
+           transform="matrix(0.97497329,0,0,0.9719221,421.20375,-553.598)"
+           d="m 310,760 -100,173.20508 -200,0 L -90,760 10,586.79492 l 200,0 z"
+           inkscape:randomized="0"
+           inkscape:rounded="0"
+           inkscape:flatsided="true"
+           sodipodi:arg2="0.52359878"
+           sodipodi:arg1="0"
+           sodipodi:r2="173.20508"
+           sodipodi:r1="200"
+           sodipodi:cy="760"
+           sodipodi:cx="110"
+           sodipodi:sides="6"
+           id="path3113-1-1"
+           style="fill:none;stroke:none"
+           sodipodi:type="star" />
+        <flowRoot
+           xml:space="preserve"
+           style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+           id="flowRoot3952"><flowRegion
+             id="flowRegion3954"><use
+               x="0"
+               y="0"
+               xlink:href="#path3113-1-1"
+               id="use3956"
+               width="765"
+               height="990" /></flowRegion><flowPara
+             id="flowPara3958"
+             style="font-size:6px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Museo 700;-inkscape-font-specification:Museo 700 Semi-Bold"> </flowPara><flowPara
+             style="font-size:12px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Museo 700;-inkscape-font-specification:Museo 700 Semi-Bold"
+             id="flowPara4024">Visual/UX Designer</flowPara><flowPara
+             id="flowPara4004"
+             style="font-size:12px">San Francisco, CA</flowPara><flowPara
+             id="flowPara3960"
+             style="font-size:12px">Department of Public Works 2014 - present</flowPara><flowPara
+             id="flowPara3962"
+             style="font-size:12px" /><flowPara
+             id="flowPara3964"
+             style="font-size:12px"><flowSpan
+   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Museo 700;-inkscape-font-specification:Museo 700 Semi-Bold"
+   id="flowSpan4008">Retail Interaction Designer</flowSpan> San Francisco, CA</flowPara><flowPara
+             id="flowPara3966"
+             style="font-size:12px">Other Machine Co.   2013 - 2014</flowPara><flowPara
+             id="flowPara3968"
+             style="font-size:12px" /><flowPara
+             id="flowPara3970"
+             style="font-size:12px"><flowSpan
+   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Museo 700;-inkscape-font-specification:Museo 700 Semi-Bold"
+   id="flowSpan4010">Quality Assurance Tester</flowSpan>  San Francisco, CA</flowPara><flowPara
+             id="flowPara3972"
+             style="font-size:12px">Gree International, Inc.   2012 - 2013</flowPara><flowPara
+             id="flowPara3974"
+             style="font-size:12px" /><flowPara
+             id="flowPara3976"
+             style="font-size:12px"><flowSpan
+   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Museo 700;-inkscape-font-specification:Museo 700 Semi-Bold"
+   id="flowSpan4014">QA Process Consultant</flowSpan>  Berkeley, CA</flowPara><flowPara
+             id="flowPara3978"
+             style="font-size:12px">Crater House   2012</flowPara><flowPara
+             id="flowPara3980"
+             style="font-size:12px" /><flowPara
+             id="flowPara3982"
+             style="font-size:12px"><flowSpan
+   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Museo 700;-inkscape-font-specification:Museo 700 Semi-Bold"
+   id="flowSpan4018">Quality Assurance Tester / Lead</flowSpan> San Francisco, CA</flowPara><flowPara
+             id="flowPara3984"
+             style="font-size:12px">Songbird    2009 - 2012</flowPara><flowPara
+             id="flowPara3986"
+             style="font-size:12px" /><flowPara
+             id="flowPara3988"
+             style="font-size:12px"><flowSpan
+   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Museo 700;-inkscape-font-specification:Museo 700 Semi-Bold"
+   id="flowSpan4020">Systems Administrator</flowSpan>  Oakland, CA</flowPara><flowPara
+             id="flowPara3990"
+             style="font-size:12px">Xantrion Consulting   2009</flowPara><flowPara
+             id="flowPara3992"
+             style="font-size:12px" /><flowPara
+             id="flowPara3994"
+             style="font-size:12px"><flowSpan
+   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Museo 700;-inkscape-font-specification:Museo 700 Semi-Bold"
+   id="flowSpan4022">Department Secretary</flowSpan>  Berkeley, CA</flowPara><flowPara
+             id="flowPara3996"
+             style="font-size:12px">UC Berkeley, EECS   2008</flowPara></flowRoot>      </g>
+      <g
+         transform="translate(-219.90567,548.77382)"
+         id="g4115">
+        <g
+           id="g3112"
+           transform="translate(28,-34)">
+          <path
+             transform="matrix(0.83857927,0,0,0.83595496,143.89835,229.46588)"
+             d="m 310,760 -100,173.20508 -200,0 L -90,760 10,586.79492 l 200,0 z"
+             inkscape:randomized="0"
+             inkscape:rounded="0"
+             inkscape:flatsided="true"
+             sodipodi:arg2="0.52359878"
+             sodipodi:arg1="0"
+             sodipodi:r2="173.20508"
+             sodipodi:r1="200"
+             sodipodi:cy="760"
+             sodipodi:cx="110"
+             sodipodi:sides="6"
+             id="path3113"
+             style="fill:none;stroke:#808080;stroke-width:4.7774539;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+             sodipodi:type="star" />
+        </g>
+        <path
+           transform="matrix(0.8185793,0,0,0.81601758,178.09835,211.0486)"
+           d="m 310,760 -100,173.20508 -200,0 L -90,760 10,586.79492 l 200,0 z"
+           inkscape:randomized="0"
+           inkscape:rounded="0"
+           inkscape:flatsided="true"
+           sodipodi:arg2="0.52359878"
+           sodipodi:arg1="0"
+           sodipodi:r2="173.20508"
+           sodipodi:r1="200"
+           sodipodi:cy="760"
+           sodipodi:cx="110"
+           sodipodi:sides="6"
+           id="path3113-7"
+           style="fill:none;stroke:none"
+           sodipodi:type="star" />
+        <flowRoot
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+           id="flowRoot4073"><flowRegion
+             id="flowRegion4075"><use
+               x="0"
+               y="0"
+               xlink:href="#path3113-7"
+               id="use4077"
+               width="765"
+               height="990" /></flowRegion><flowPara
+             style="font-size:4px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Museo 700;-inkscape-font-specification:Museo 700 Semi-Bold"
+             id="flowPara4079"> </flowPara><flowPara
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Museo 700;-inkscape-font-specification:Museo 700 Semi-Bold"
+             id="flowPara4241">General Assemb.ly</flowPara><flowPara
+             id="flowPara4083">San Francisco, CA</flowPara><flowPara
+             id="flowPara4085">User Experience Design   2014</flowPara><flowPara
+             id="flowPara4087" /><flowPara
+             id="flowPara4089"><flowSpan
+   id="flowSpan4091"
+   style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Museo 700;-inkscape-font-specification:Museo 700 Semi-Bold">University of California, Berkeley</flowSpan>           Berkeley, CA</flowPara><flowPara
+             id="flowPara4093">Summer Mandarin Chinese intensive   2007</flowPara><flowPara
+             id="flowPara4095" /><flowPara
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Museo 700;-inkscape-font-specification:Museo 700 Semi-Bold"
+             id="flowPara4097">University of St Andrews</flowPara><flowPara
+             id="flowPara4101"> Scotland</flowPara><flowPara
+             id="flowPara4103">Semester abroad in Physics and CS   2006</flowPara><flowPara
+             id="flowPara4105" /><flowPara
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Museo 700;-inkscape-font-specification:Museo 700 Semi-Bold"
+             id="flowPara4107">Bryn Mawr College</flowPara><flowPara
+             id="flowPara4111">Bryn Mawr, PA</flowPara><flowPara
+             id="flowPara4113">Bachelors degree in Physics   2003 - 2007</flowPara></flowRoot>      </g>
+    </g>
+    <path
+       transform="translate(0,62.362183)"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 303.29829,635.43649 53.79056,-4.54568 c 2.93828,28.65499 -4.23279,36.18957 -24.49613,53.79061 z"
+       id="rect4777"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 6.6922932,961.82727 54.8007098,-2.27284 53.538087,92.80777 -108.3387968,0 z"
+       id="rect4777-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m -2.7779195,787.32338 61.4930025,0 -48.487322,85.61043 7.19737,12.12183 -14.1421352,0.1894 -33.3350338,-53.85375 z"
+       id="rect4777-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#fc5b3f;stroke-width:7.14908266;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path2987"
+       sodipodi:sides="6"
+       sodipodi:cx="50"
+       sodipodi:cy="640"
+       sodipodi:r1="283.1004"
+       sodipodi:r2="245.17213"
+       sodipodi:arg1="1.0471976"
+       sodipodi:arg2="1.5707963"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 191.55019,885.17215 -283.100403,-2e-5 -141.550187,-245.17214 141.550211,-245.17214 283.100399,2e-5 141.55019,245.17214 z"
+       transform="matrix(0.69766798,0,0,0.69547087,173.32054,427.77091)" />
+  </g>
+</svg>
