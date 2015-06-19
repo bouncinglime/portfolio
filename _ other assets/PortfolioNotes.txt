@@ -13,7 +13,6 @@ PORTFOLIO
 
 - webfont Windows equivalent for Andale Mono?
 - left margin of logo needed for 1000px - 1300px?
-- change all pages to "images/favicon.ico"
 - look into php templating?
 - need PR sketching hex
 
