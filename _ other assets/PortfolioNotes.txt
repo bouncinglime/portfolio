@@ -11,9 +11,6 @@ PORTFOLIO
   - update ravelry?
 - create error pages w/ business card image
 
-- webfont Windows equivalent for Andale Mono?
-  - or just use Museo for everything?
-  - if so, find another way to indicate links
 - left margin of logo needed for 1000px - 1300px?
 - look into php templating?
 - need PR sketching hex
@@ -28,3 +25,6 @@ Portfolio colors :
   
   Size : 400 x 346
   Widths : 7, 5, 3
+  
+  text color: #575057
+  background color: #fdf6e3

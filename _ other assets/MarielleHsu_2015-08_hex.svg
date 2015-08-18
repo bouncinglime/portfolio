@@ -42,14 +42,14 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="720"
-     inkscape:window-height="1222"
+     inkscape:window-width="1280"
+     inkscape:window-height="662"
      id="namedview4"
      showgrid="true"
      inkscape:showpageshadow="false"
      inkscape:zoom="0.72880595"
      inkscape:cx="425.81143"
-     inkscape:cy="481.58754"
+     inkscape:cy="756.00901"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -123,14 +123,14 @@
          transform="translate(-0.34703315,-12.508143)"><flowRegion
            id="flowRegion3132"><rect
              id="rect3134"
-             width="244"
-             height="67"
+             width="327.69855"
+             height="61.51157"
              x="271"
              y="50"
              style="font-size:20px;fill:#6f6f6f;fill-opacity:0;font-family:Museo 300;-inkscape-font-specification:Museo 300" /></flowRegion><flowPara
            id="flowPara3136"
-           style="font-size:18px;font-style:normal;fill:#6e6e6e;fill-opacity:1;-inkscape-font-specification:Museo 300 Light">contact<flowSpan
-   style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Tahoma;-inkscape-font-specification:Tahoma"
+           style="font-size:20px;font-style:normal;fill:#6e6e6e;fill-opacity:1;-inkscape-font-specification:Museo 300 Light">contact<flowSpan
+   style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Tahoma;-inkscape-font-specification:Tahoma"
    id="flowSpan3180">@</flowSpan>mariellehsu.com</flowPara></flowRoot>    </g>
     <g
        id="layer1"
@@ -204,9 +204,9 @@
   </g>
   <g
      id="g4245"
-     transform="translate(-281.9947,717.60838)">
+     transform="translate(-283.9947,717.60838)">
     <path
-       transform="matrix(0.96551428,0,0,0.9624927,411.67204,-537.28998)"
+       transform="matrix(0.97242839,0,0,0.96938517,412.30863,-543.36343)"
        d="m 310,760 -100,173.20508 -200,0 L -90,760 10,586.79492 l 200,0 z"
        inkscape:randomized="0"
        inkscape:rounded="0"
@@ -263,7 +263,7 @@
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Museo 300;-inkscape-font-specification:Museo 300"
        id="flowRoot4151"
-       transform="translate(6,0)"><flowRegion
+       transform="translate(4,0)"><flowRegion
          id="flowRegion4153"><use
            x="0"
            y="0"
@@ -406,7 +406,7 @@
        id="flowRoot4073"
        style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Museo 300;-inkscape-font-specification:Museo 300"
        xml:space="preserve"
-       transform="translate(0,-12)"><flowRegion
+       transform="translate(-4,-16)"><flowRegion
          id="flowRegion4075"><use
            height="990"
            width="765"
@@ -437,7 +437,7 @@
          id="flowPara4113">Bachelors degree in Physics   2003 - 2007</flowPara></flowRoot>  </g>
   <g
      id="g4285"
-     transform="translate(136.83784,-910.33181)">
+     transform="translate(138.83784,-912.33181)">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
@@ -545,61 +545,57 @@
              id="flowSpan3181"
              style="line-height:200%"><flowSpan
                id="flowSpan3183"
-               style="line-height:125%">Mobile app </flowSpan></flowSpan></flowPara><flowPara
+               style="line-height:125%">Mobile apps </flowSpan></flowSpan></flowPara><flowPara
            id="flowPara4214">user interviews, card sorting, sketching, research, paper prototype, interaction representation, error handling, testing, iteration, clickable prototype.</flowPara></flowRoot>    </g>
     <g
        transform="translate(-4,-10)"
        id="g3966">
-      <g
-         id="g4203"
-         transform="translate(27.884617,-41.513636)">
-        <flowRoot
-           transform="translate(-25.329561,-295.86473)"
-           style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Museo 300;-inkscape-font-specification:Museo 300"
-           id="flowRoot4355"
-           xml:space="preserve"><flowRegion
-             id="flowRegion4357"><rect
-               style="font-size:11px;font-family:Museo 300;-inkscape-font-specification:Museo 300"
-               y="712"
-               x="41"
-               height="168"
-               width="196"
-               id="rect4359" /></flowRegion><flowPara
-             style="text-align:center;text-anchor:middle"
-             id="flowPara4334">paper prototype</flowPara><flowPara
-             style="text-align:center;text-anchor:middle"
-             id="flowPara4756">POPapp (mobile and web)</flowPara><flowPara
-             style="text-align:center;text-anchor:middle"
-             id="flowPara4760">pen and paper</flowPara></flowRoot>        <path
-           transform="matrix(0.78417275,0,0,0.78417275,-121.81567,326.26946)"
-           d="m 410.45361,140 -55.2268,95.65564 -110.45362,0 L 189.54639,140 l 55.2268,-95.655635 110.45362,0 z"
-           inkscape:randomized="0"
-           inkscape:rounded="0"
-           inkscape:flatsided="true"
-           sodipodi:arg2="0.52359878"
-           sodipodi:arg1="0"
-           sodipodi:r2="95.655632"
-           sodipodi:r1="110.45361"
-           sodipodi:cy="140"
-           sodipodi:cx="300"
-           sodipodi:sides="6"
-           id="path4104-7"
-           style="fill:none;stroke:#fc5b3f;stroke-width:2.55045843;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-           sodipodi:type="star" />
-        <flowRoot
-           transform="matrix(0.5,-0.8660254,0.8660254,0.5,-32.837056,439.24502)"
-           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-           id="flowRoot4429-5"
-           xml:space="preserve"><flowRegion
-             id="flowRegion4431-5"><rect
-               y="19"
-               x="34"
-               height="91"
-               width="298"
-               id="rect4433-1" /></flowRegion><flowPara
-             style="font-size:22.5px;font-family:Museo 700;-inkscape-font-specification:Museo 700"
-             id="flowPara4435-7">TOOLS</flowPara></flowRoot>      </g>
-      <path
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4355"
+         style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+         transform="translate(2.555056,-337.37837)"><flowRegion
+           id="flowRegion4357"><rect
+             id="rect4359"
+             width="196"
+             height="168"
+             x="41"
+             y="712"
+             style="font-size:11px;font-family:Museo 300;-inkscape-font-specification:Museo 300" /></flowRegion><flowPara
+           id="flowPara4334"
+           style="text-align:center;text-anchor:middle">paper prototype</flowPara><flowPara
+           id="flowPara4756"
+           style="text-align:center;text-anchor:middle">POPapp (mobile and web)</flowPara><flowPara
+           id="flowPara4760"
+           style="text-align:center;text-anchor:middle">pen and paper</flowPara></flowRoot>      <path
+         sodipodi:type="star"
+         style="fill:none;stroke:#fc5b3f;stroke-width:2.55045843;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path4104-7"
+         sodipodi:sides="6"
+         sodipodi:cx="300"
+         sodipodi:cy="140"
+         sodipodi:r1="110.45361"
+         sodipodi:r2="95.655632"
+         sodipodi:arg1="0"
+         sodipodi:arg2="0.52359878"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 410.45361,140 -55.2268,95.65564 -110.45362,0 L 189.54639,140 l 55.2268,-95.655635 110.45362,0 z"
+         transform="matrix(0.78417275,0,0,0.78417275,-93.931053,284.75582)" />
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4429-5"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         transform="matrix(0.5,-0.8660254,0.8660254,0.5,3.047561,405.73138)"><flowRegion
+           id="flowRegion4431-5"><rect
+             id="rect4433-1"
+             width="298"
+             height="91"
+             x="34"
+             y="19" /></flowRegion><flowPara
+           id="flowPara4435-7"
+           style="font-size:22.5px;font-family:Museo 700;-inkscape-font-specification:Museo 700">TOOLS</flowPara></flowRoot>      <path
          transform="matrix(0.78417275,0,0,0.78417275,-94.029603,440.50975)"
          d="m 410.45361,140 -55.2268,95.65564 -110.45362,0 L 189.54639,140 l 55.2268,-95.655635 110.45362,0 z"
          inkscape:randomized="0"
@@ -615,7 +611,19 @@
          id="path4104-7-1"
          style="fill:none;stroke:#fc5b3f;stroke-width:2.55045843;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
-    </g>
+      <flowRoot
+         transform="matrix(0.5,-0.8660254,0.8660254,0.5,3.6573148,558.81012)"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot4429-5-1"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4431-5-7"><rect
+             y="19"
+             x="34"
+             height="91"
+             width="298"
+             id="rect4433-1-4" /></flowRegion><flowPara
+           style="font-size:22.5px;font-family:Museo 700;-inkscape-font-specification:Museo 700"
+           id="flowPara4435-7-0">SKILLS</flowPara></flowRoot>    </g>
   </g>
   <g
      id="g4104"
