@@ -33,10 +33,10 @@ body {
 }
 
 a {
-    font-family: Andale Mono, Museo-300;
-    text-decoration: none;
+    font-family: Museo-300;
+    text-decoration: underline;
     font-weight: bold;
-    color: black;
+    color: #444444;
 }
 
 /* position and size of chop in corner */
@@ -116,6 +116,13 @@ h1 {
     width: 400px;
     margin-top: 3em;
     margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 13pt;
+    line-height: 1.2em;
+	text-align: center;
     margin-bottom: 20px;
 }
 

@@ -11,14 +11,13 @@ PORTFOLIO
   - update ravelry?
 - create error pages w/ business card image
 
-- webfont Windows equivalent for Andale Mono?
-- left margin of logo needed for 1000px - 1300px?
+
 - look into php templating?
 - need PR sketching hex
 
-SAVE FEB HEX PORTFOLIO SVG
 
-Portfolio colors :
+
+COLORS :
 
   - dark blue :  rgb(17, 47, 65) / #112F41
   - blue : rgb(6, 133, 135) / #068587
@@ -28,3 +27,6 @@ Portfolio colors :
   
   Size : 400 x 346
   Widths : 7, 5, 3
+  
+  text color: #575057
+  background color: #fdf6e3
