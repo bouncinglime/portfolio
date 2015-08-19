@@ -4,7 +4,7 @@
 
   <head>
 	<!-- everything in header.php -->
-	<php include('header.php'); ?>
+	<?php include('header.php'); ?>
     <!-- title -->
     <title>Marielle Hsu - Portfolio</title>
   </head>
@@ -16,7 +16,7 @@
     <!-- actual content -->
 
     <!-- logo (in logo.php) and name -->
-	<php include('logo.php'); ?>
+	<?php include('logo.php'); ?>
     <h1>Marielle Hsu</h1>
 
     <!-- Summary -->
