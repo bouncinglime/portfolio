@@ -15,7 +15,9 @@ PORTFOLIO
 - look into php templating?
 - need PR sketching hex
 
-Portfolio colors :
+
+
+COLORS :
 
   - dark blue :  rgb(17, 47, 65) / #112F41
   - blue : rgb(6, 133, 135) / #068587
