@@ -11,7 +11,7 @@ PORTFOLIO
   - update ravelry?
 - create error pages w/ business card image
 
-- left margin of logo needed for 1000px - 1300px?
+
 - look into php templating?
 - need PR sketching hex
 
