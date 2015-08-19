@@ -14,13 +14,14 @@
   <body>
 
     <!-- actual content -->
+	
+    <div class="narrow" style="text-align: center;">
 
     <!-- logo (in logo.php) and name -->
 	<?php include('logo.php'); ?>
     <h1>Marielle Hsu</h1>
 
     <!-- Summary -->
-    <div class="narrow" style="text-align: center;">
       <text>
 	<label>Creating efficient, intuitive designs.</label>
       <br />Melding the creative and the analytical to get the full picture of an experience.

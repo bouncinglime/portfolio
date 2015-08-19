@@ -47,9 +47,9 @@
      id="namedview4"
      showgrid="true"
      inkscape:showpageshadow="false"
-     inkscape:zoom="0.90028971"
-     inkscape:cx="533.07092"
-     inkscape:cy="797.86296"
+     inkscape:zoom="0.9983453"
+     inkscape:cx="431.81153"
+     inkscape:cy="108.45184"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -204,7 +204,7 @@
   </g>
   <g
      id="g4245"
-     transform="translate(-283.9947,717.60838)">
+     transform="translate(-307.9947,718.60838)">
     <path
        transform="matrix(0.97242839,0,0,0.96938517,412.30863,-543.36343)"
        d="m 310,760 -100,173.20508 -200,0 L -90,760 10,586.79492 l 200,0 z"
@@ -353,13 +353,13 @@
      sodipodi:type="star" />
   <g
      id="g4115"
-     transform="translate(368.59541,102.93818)">
+     transform="translate(272.59541,-2.06182)">
     <g
        transform="translate(28,-34)"
        id="g3112">
       <path
          sodipodi:type="star"
-         style="fill:none;stroke:#808080;stroke-width:4.7774539;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:none;stroke:#808080;stroke-width:5.27624035;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          id="path3113"
          sodipodi:sides="6"
          sodipodi:cx="110"
@@ -372,7 +372,7 @@
          inkscape:rounded="0"
          inkscape:randomized="0"
          d="m 310,760 -100,173.20508 -200,0 L -90,760 10,586.79492 l 200,0 z"
-         transform="matrix(0.92645212,0,0,0.92355282,152.01648,147.50954)" />
+         transform="matrix(0.83895212,0,0,0.8361639,143.95351,212.76197)" />
       <flowRoot
          transform="matrix(0.5,-0.8660254,0.8660254,0.5,16.602905,855.61515)"
          style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -554,7 +554,7 @@
          xml:space="preserve"
          id="flowRoot4355"
          style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Museo 300;-inkscape-font-specification:Museo 300"
-         transform="translate(-2.5596575,-340.94108)"><flowRegion
+         transform="translate(-2.5596575,-367.0716)"><flowRegion
            id="flowRegion4357"><rect
              id="rect4359"
              width="196"
@@ -563,11 +563,19 @@
              y="712"
              style="font-size:11px;font-family:Museo 300;-inkscape-font-specification:Museo 300" /></flowRegion><flowPara
            id="flowPara4334"
-           style="text-align:center;text-anchor:middle">paper prototype</flowPara><flowPara
+           style="text-align:center;text-anchor:middle">Post-Its</flowPara><flowPara
+           style="text-align:center;text-anchor:middle"
+           id="flowPara3275">Balsamiq</flowPara><flowPara
+           style="text-align:center;text-anchor:middle"
+           id="flowPara3265">paper prototype</flowPara><flowPara
            id="flowPara4756"
            style="text-align:center;text-anchor:middle">POPapp (mobile and web)</flowPara><flowPara
            id="flowPara4760"
-           style="text-align:center;text-anchor:middle">pen and paper</flowPara></flowRoot>      <path
+           style="text-align:center;text-anchor:middle">scissors and tape</flowPara><flowPara
+           style="text-align:center;text-anchor:middle"
+           id="flowPara3273">pen and paper</flowPara><flowPara
+           style="text-align:center;text-anchor:middle"
+           id="flowPara3263">Invision</flowPara></flowRoot>      <path
          sodipodi:type="star"
          style="fill:none;stroke:#fc5b3f;stroke-width:2.71066833;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          id="path4104-7"
@@ -650,7 +658,8 @@
       <flowRoot
          xml:space="preserve"
          style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Museo 300;-inkscape-font-specification:Museo 300"
-         id="flowRoot3841"><flowRegion
+         id="flowRoot3841"
+         transform="matrix(1.0504432,0,0,1.0549459,-15.956215,-17.218524)"><flowRegion
            id="flowRegion3843"><use
              height="990"
              width="765"
@@ -658,9 +667,10 @@
              y="0"
              xlink:href="#path3043"
              id="use3845" /></flowRegion><flowPara
-           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Museo 700;-inkscape-font-specification:Museo 700 Semi-Bold"
+           style="font-size:10.44939899px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Museo 700;-inkscape-font-specification:Museo 700 Semi-Bold"
            id="flowPara3847">(Re)Branding</flowPara><flowPara
-           id="flowPara3849">stakeholder interviews, user research, partner collaboration and communication, client communication, card sorting, understanding a project brief, time management, market and competitive research, information architecture, wireframing, appropriate use of design triggers.</flowPara></flowRoot>      <path
+           id="flowPara3849"
+           style="font-size:10.44939899px">stakeholder interviews, user research, card sorting, partner collaboration and communication, client communication, understanding a project brief, time management, market and competitive research, information architecture, wireframing, accessability for non-standard users, appropriate use of design triggers.</flowPara></flowRoot>      <path
          sodipodi:type="star"
          style="fill:none;stroke:#fcb03c;stroke-width:4.88131428;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          id="path4104-4"
@@ -744,42 +754,22 @@
   <g
      id="g4079"
      transform="translate(2.4902954,4.5)">
-    <g
-       transform="translate(63.438325,-16.601262)"
-       id="g4356">
-      <path
-         sodipodi:type="star"
-         style="fill:none;stroke:none"
-         id="path3043-1"
-         sodipodi:sides="6"
-         sodipodi:cx="115.01695"
-         sodipodi:cy="540"
-         sodipodi:r1="116.49153"
-         sodipodi:r2="100.88462"
-         sodipodi:arg1="0"
-         sodipodi:arg2="0.52359878"
-         inkscape:flatsided="true"
-         inkscape:rounded="0"
-         inkscape:randomized="0"
-         d="m 231.50848,540 -58.24576,100.88463 -116.491533,0 L -1.4745789,540 56.771187,439.11537 l 116.491533,0 z"
-         transform="matrix(0.86687033,0,0,0.8709788,372.77807,-246.24814)" />
-      <path
-         transform="matrix(1.0243143,0,0,1.0243143,166.55998,80.595998)"
-         d="m 410.45361,140 -55.2268,95.65564 -110.45362,0 L 189.54639,140 l 55.2268,-95.655635 110.45362,0 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="true"
-         sodipodi:arg2="0.52359878"
-         sodipodi:arg1="0"
-         sodipodi:r2="95.655632"
-         sodipodi:r1="110.45361"
-         sodipodi:cy="140"
-         sodipodi:cx="300"
-         sodipodi:sides="6"
-         id="path4104-4-9"
-         style="fill:none;stroke:#6fb07f;stroke-width:4.88131428;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star" />
-    </g>
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#6fb07f;stroke-width:4.88131428;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path4104-4-9"
+       sodipodi:sides="6"
+       sodipodi:cx="300"
+       sodipodi:cy="140"
+       sodipodi:r1="110.45361"
+       sodipodi:r2="95.655632"
+       sodipodi:arg1="0"
+       sodipodi:arg2="0.52359878"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 410.45361,140 -55.2268,95.65564 -110.45362,0 L 189.54639,140 l 55.2268,-95.655635 110.45362,0 z"
+       transform="matrix(1.0243143,0,0,1.0243143,229.9983,63.994736)" />
     <g
        transform="translate(70.98481,-60.467776)"
        id="g4420">
@@ -847,14 +837,40 @@
        transform="matrix(0.78417275,0,0,0.78417275,302.04077,434.00975)" />
     <flowRoot
        xml:space="preserve"
-       style="font-size:11.02086353px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       id="flowRoot3258"
-       transform="translate(-454.0558,34.195117)"><flowRegion
-         id="flowRegion3260" /><flowPara
-         id="flowPara3264"
-         style="font-size:11px;line-height:125%;font-family:Museo 700;-inkscape-font-specification:Museo 700">Design &amp; Develop</flowPara><flowPara
-         id="flowPara3266"
-         style="font-size:11px;line-height:125%;font-family:Museo 300;-inkscape-font-specification:Museo 300">HTML, CSS, JavaScript, jquery, version control, security, documentation, code standards, troubleshooting, research, interviews, typography, layout, intuitive flow, grid systems, color palettes, mood boards, personal branding, write/refine/understand design specification documents, establish and maintain consistent messaging.</flowPara></flowRoot>  </g>
+       id="flowRoot3226"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Arial;-inkscape-font-specification:Arial"
+       transform="translate(-9.9967821,4.4430146)"><flowRegion
+         id="flowRegion3228"><rect
+           id="rect3230"
+           width="207.71092"
+           height="199.93564"
+           x="444.30142"
+           y="112.77238"
+           style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" /></flowRegion><flowPara
+         id="flowPara3232"
+         style="font-size:11px;font-weight:bold;font-family:Museo 700;-inkscape-font-specification:Museo 700">                 Design &amp; Develop</flowPara><flowPara
+         id="flowPara3241"
+         style="font-size:11px;font-family:Museo 300;-inkscape-font-specification:Museo 300">              HTML, CSS, JavaScript,</flowPara><flowPara
+         style="font-size:11px;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+         id="flowPara3243">           jquery, version control,</flowPara><flowPara
+         style="font-size:11px;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+         id="flowPara3245">        security, documentation, code</flowPara><flowPara
+         style="font-size:11px;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+         id="flowPara3247">     standards, troubleshooting,</flowPara><flowPara
+         style="font-size:11px;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+         id="flowPara3249">   research, interviews, typography,</flowPara><flowPara
+         style="font-size:11px;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+         id="flowPara3251">layout, intuitive flow, grid systems, color</flowPara><flowPara
+         style="font-size:11px;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+         id="flowPara3253">  palettes, mood boards, personal</flowPara><flowPara
+         style="font-size:11px;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+         id="flowPara3255">     branding, write/refine/understand</flowPara><flowPara
+         style="font-size:11px;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+         id="flowPara3257">        design specification documents,</flowPara><flowPara
+         style="font-size:11px;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+         id="flowPara3259">          establish and maintain</flowPara><flowPara
+         style="font-size:11px;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+         id="flowPara3261">             consistent messaging.</flowPara></flowRoot>  </g>
   <g
      id="g4053"
      transform="translate(2,-9.491362)">
@@ -988,4 +1004,61 @@
          height="24.436579"
          x="693.11023"
          y="283.82843" /></flowRegion><flowPara
-       id="flowPara3235" /></flowRoot></svg>
+       id="flowPara3235" /></flowRoot>  <g
+     id="g4115-1"
+     transform="translate(528.20341,236.41337)">
+    <g
+       transform="matrix(1.071617,0,0,1.071617,8.3623599,-101.70655)"
+       id="g3112-7">
+      <path
+         transform="matrix(0.67645212,0,0,0.6738702,90.26387,370.22521)"
+         style="fill:none;stroke:#808080;stroke-width:6.10791016;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 310,760 -400,0 100,-173.20508 200,0 z"
+         id="path3113-40"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <flowRoot
+         transform="matrix(0.5,-0.8660254,0.8660254,0.5,-24.120167,895.4075)"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot4429-3-6-9"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4431-6-4-4"><rect
+             y="19"
+             x="34"
+             height="91"
+             width="298"
+             id="rect4433-17-6-8" /></flowRegion><flowPara
+           style="font-size:22.39606094px;font-family:Museo 700;-inkscape-font-specification:Museo 700"
+           id="flowPara4435-6-2-8">EXTRA</flowPara></flowRoot>    </g>
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:none"
+       id="path3113-7-2"
+       sodipodi:sides="6"
+       sodipodi:cx="110"
+       sodipodi:cy="760"
+       sodipodi:r1="200"
+       sodipodi:r2="173.20508"
+       sodipodi:arg1="0"
+       sodipodi:arg2="0.52359878"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 310,760 -100,173.20508 -200,0 L -90,760 10,586.79492 l 200,0 z"
+       transform="matrix(0.8185793,0,0,0.81601758,178.09835,211.0486)" />
+    <flowRoot
+       id="flowRoot4073-4"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Museo 300;-inkscape-font-specification:Museo 300"
+       xml:space="preserve"
+       transform="translate(-71.111048,37.087845)"><flowRegion
+         id="flowRegion4075-5"><use
+           height="990"
+           width="765"
+           id="use4077-5"
+           xlink:href="#path3113-7-2"
+           y="0"
+           x="0" /></flowRegion><flowPara
+         id="flowPara4113-6">Books</flowPara><flowPara
+         id="flowPara3501">Activites</flowPara><flowPara
+         id="flowPara3503">Clubs</flowPara></flowRoot>  </g>
+</svg>
