@@ -15,21 +15,21 @@
 
     <!-- actual content -->
 	
-    <div class="narrow" style="text-align: center;">
+    <div class="narrow">
 
     <!-- logo (in logo.php) and name -->
 	<?php include('logo.php'); ?>
     <h1>Marielle Hsu</h1>
 
     <!-- Summary -->
-      <text>
+      <div class="subtitle">
 	<label>Creating efficient, intuitive designs.</label>
       <br />Melding the creative and the analytical to get the full picture of an experience.
 	  <br />Building empathy at each step of the process.
 <!--	A fusion of analysis and creativity to inspire experiences.
 	Analyzing creativity, and creative approaches to analysis.
 	Addressing root causes of issues with... -->
-      </text>
+      </div>
     </div>
 
     <br /> <!-- spacing -->
