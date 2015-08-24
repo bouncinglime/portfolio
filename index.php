@@ -5,7 +5,7 @@
   <head>
 	<!-- everything in header.php -->
 	<?php include('header.php'); ?>
-    <!-- title -->
+    <!-- page title -->
     <title>Marielle Hsu - Portfolio</title>
   </head>
 
@@ -17,20 +17,21 @@
 	
     <div class="narrow">
 
-    <!-- logo (in logo.php) and name -->
+    <!-- logo (in logo.php) and page name -->
 	<?php include('logo.php'); ?>
     <h1>Marielle Hsu</h1>
 
     <!-- Summary -->
       <div class="subtitle">
-	<label>Creating efficient, intuitive designs.</label>
-      <br />Melding the creative and the analytical to get the full picture of an experience.
-	  <br />Building empathy at each step of the process.
-<!--	A fusion of analysis and creativity to inspire experiences.
-	Analyzing creativity, and creative approaches to analysis.
-	Addressing root causes of issues with... -->
+		<label>Creating efficient, intuitive designs.</label>
+		<br />Melding the creative and the analytical to get the full picture of an experience.
+		<br />Building empathy at each step of the process.
+		<!--	A fusion of analysis and creativity to inspire experiences.
+		Analyzing creativity, and creative approaches to analysis.
+		Addressing root causes of issues with... -->
       </div>
-    </div>
+	  
+    </div> <!-- Closing "narrow" -->
 
     <br /> <!-- spacing -->
     <br /> <!-- spacing -->

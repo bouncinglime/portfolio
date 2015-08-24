@@ -3,22 +3,10 @@
 <html>
 
   <head>
-    <!-- favicon -->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-    <!-- meta tags -->
-    <meta charset="utf-8" />
-    <meta name="Marielle Hsu Portfolio - betabrand annotated wireframes" content="HTML,CSS,JavaScript" />
-    <meta name="author" content="Marielle Hsu" />
-    <meta name="description" content="Creating efficient, intuitive experiences." />
-    <!-- css -->
-    <link rel="stylesheet" type="text/css" href="homeycombs/css/homeycombs.css" />
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <!-- title -->
+	<!-- everything in header.php -->
+	<?php include('header.php'); ?>
+    <!-- page title -->
     <title>Marielle Hsu - betabrand annotated wireframes</title>
-    <!-- pulling jquery from google & local script -->
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="homeycombs/js/jquery.homeycombs.js"></script>
-    <script src="js/scroll.js"></script>
   </head>
 
 
@@ -26,111 +14,109 @@
 
   <body>
 
-    <!-- actual content, max width defined in CSS differs from default -->
+    <!-- actual content -->
 
     <div class="narrow">
 
-      <!-- logo and name -->
-      <div class="chop">
-	<a href="index.html"><img class="chop" src="images/logo.png" alt="logo" /></a>
-      </div>
-      <h1>betabrand annotated wireframes</h1>
+		<!-- logo (in logo.php) and page name -->
+		<?php include('logo.php'); ?>
+		<h1>betabrand annotated wireframes</h1>
 
-      <!-- image -->
-      <div>
-	<label>Home</label>
-	<br /><img class="hero" src="images/bb/Home.jpg" />
-      </div>
+		<!-- image -->
+		<div>
+			<label>Home</label>
+			<br /><img class="hero" src="images/bb/Home.jpg" />
+		</div>
 
-      <br /> <!-- spacing -->
+		<br /> <!-- spacing -->
 
-      <!-- image -->
-      <div>
-	<label>Searching</label>
-	<br /><img class="hero" src="images/bb/Search Results.jpg" />
-	<br /><img class="hero" src="images/bb/No Results.jpg" />
-      </div>
+		<!-- image -->
+		<div>
+			<label>Searching</label>
+			<br /><img class="hero" src="images/bb/Search Results.jpg" />
+			<br /><img class="hero" src="images/bb/No Results.jpg" />
+		</div>
 
-      <br /> <!-- spacing -->
+		<br /> <!-- spacing -->
 
-      <!-- image -->
-      <div>
-	<label>About Us</label>
-	<br /><img class="hero" src="images/bb/About Us.jpg" />
-      </div>
+		<!-- image -->
+		<div>
+			<label>About Us</label>
+			<br /><img class="hero" src="images/bb/About Us.jpg" />
+		</div>
 
-      <br /> <!-- spacing -->
+		<br /> <!-- spacing -->
 
-      <!-- image -->
-      <div>
-	<label>Collection - Outfit</label>
-	<br /><img class="hero" src="images/bb/Collection Outfit.jpg" />
-      </div>
+		<!-- image -->
+		<div>
+			<label>Collection - Outfit</label>
+			<br /><img class="hero" src="images/bb/Collection Outfit.jpg" />
+		</div>
 
-      <br /> <!-- spacing -->
+		<br /> <!-- spacing -->
 
-      <!-- image -->
-      <div>
-	<label>Collection - "Buy Now" Overlay</label>
-	<br /><img class="hero" src="images/bb/Collection Outfit Overlay.jpg" />
-      </div>
+		<!-- image -->
+		<div>
+			<label>Collection - "Buy Now" Overlay</label>
+			<br /><img class="hero" src="images/bb/Collection Outfit Overlay.jpg" />
+		</div>
 
-      <br /> <!-- spacing -->
+		<br /> <!-- spacing -->
 
-      <!-- image -->
-      <div>
-	<label>Outfit Added to Cart</label>
-	<br /><img class="hero" src="images/bb/Collection Outfit Added.jpg" />
-      </div>
+		<!-- image -->
+		<div>
+			<label>Outfit Added to Cart</label>
+			<br /><img class="hero" src="images/bb/Collection Outfit Added.jpg" />
+		</div>
 
-      <br /> <!-- spacing -->
+		<br /> <!-- spacing -->
 
-      <!-- image -->
-      <div>
-	<label>Collection - Tops</label>
-	<br /><img class="hero" src="images/bb/Collection Tops.jpg" />
-      </div>
+		<!-- image -->
+		<div>
+			<label>Collection - Tops</label>
+			<br /><img class="hero" src="images/bb/Collection Tops.jpg" />
+		</div>
 
-      <br /> <!-- spacing -->
+		<br /> <!-- spacing -->
 
-      <!-- image -->
-      <div>
-	<label>Product Page</label>
-	<br /><img class="hero" src="images/bb/Product Page.jpg" />
-      </div>
+		<!-- image -->
+		<div>
+			<label>Product Page</label>
+			<br /><img class="hero" src="images/bb/Product Page.jpg" />
+		</div>
 
-      <br /> <!-- spacing -->
+		<br /> <!-- spacing -->
 
-      <!-- image -->
-      <div>
-	<label>Shopping Cart</label>
-	<br /><img class="hero" src="images/bb/Shopping Cart.jpg" />
-      </div>
+		<!-- image -->
+		<div>
+			<label>Shopping Cart</label>
+			<br /><img class="hero" src="images/bb/Shopping Cart.jpg" />
+		</div>
 
-      <br /> <!-- spacing -->
+		<br /> <!-- spacing -->
 
-      <!-- image -->
-      <div>
-	<label>Qualify for free shipping</label>
-	<br /><img class="hero" src="images/bb/Shopping Cart - Qualify.jpg" />
-      </div>
+		<!-- image -->
+		<div>
+			<label>Qualify for free shipping</label>
+			<br /><img class="hero" src="images/bb/Shopping Cart - Qualify.jpg" />
+		</div>
 
-      <br /> <!-- spacing -->
+		<br /> <!-- spacing -->
 
-      <!-- image -->
-      <div>
-	<label>Shipping Info</label>
-	<br /><img class="hero" src="images/bb/Shipping.jpg" />
-	<br /><img class="hero" src="images/bb/Shipping Country.jpg" />
-      </div>
+		<!-- image -->
+		<div>
+			<label>Shipping Info</label>
+			<br /><img class="hero" src="images/bb/Shipping.jpg" />
+			<br /><img class="hero" src="images/bb/Shipping Country.jpg" />
+		</div>
 
-      <br /> <!-- spacing -->
+		<br /> <!-- spacing -->
 
-      <!-- image -->
-      <div>
-	<label>Billing Info</label>
-	<br /><img class="hero" src="images/bb/Billing.jpg" />
-      </div>
+		<!-- image -->
+		<div>
+			<label>Billing Info</label>
+			<br /><img class="hero" src="images/bb/Billing.jpg" />
+		</div>
 
     </div> <!-- Closing narrower project div -->
 

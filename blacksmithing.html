@@ -3,107 +3,88 @@
 <html>
 
   <head>
-    <!-- favicon -->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <!-- meta tags -->
-    <meta charset="utf-8" />
-    <meta name="Marielle Hsu Portfolio - Blacksmithing" content="HTML,CSS,JavaScript" />
-    <meta name="author" content="Marielle Hsu" />
-    <meta name="description" content="Creating efficient, intuitive experiences." />
-    <!-- css -->
-    <link rel="stylesheet" type="text/css" href="homeycombs/css/homeycombs.css" />
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <!-- title -->
+	<!-- everything in header.php -->
+	<?php include('header.php'); ?>
+    <!-- page title -->
     <title>Marielle Hsu - Blacksmithing</title>
-    <!-- pulling jquery from google & local script -->
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="homeycombs/js/jquery.homeycombs.js"></script>
-    <script src="js/scroll.js"></script>
   </head>
-
 
   <!-- MAIN BODY -->
 
   <body>
 
-    <!-- actual content, max width defined in CSS differs from default -->
+    <!-- actual content -->
 
     <div class="narrow">
 
-      <!-- logo and name -->
-      <div class="chop">
-	<a href="index.html"><img class="chop" src="images/logo.png" alt="logo" /></a>
-      </div>
-      <h1>Blacksmithing</h1>
+		<!-- logo (in logo.php) and page name -->
+		<?php include('logo.php'); ?>
+		<h1>Blacksmithing</h1>
 
-      <!-- blacksmithing hero image -->
-      <div>
-	<img class="hero" src="images/forge.jpg" />
-      </div>
+		<!-- blacksmithing hero image -->
+		<div><img class="hero" src="images/forge.jpg" /></div>
 
-      <!-- forcing everything else below the hero -->
-      <div style="clear: both;">
-      </div>
+		<!-- forcing everything else below the hero -->
+		<div style="clear: both;"></div>
 
-      <br /> <!-- spacing -->
+		<br /> <!-- spacing -->
 
-      <!-- candleholder
-	   ALWAYS BEFORE TEXT when text flows around image -->
-      <img class="leftimg" src="images/candle.png" />
+		<!-- candleholder
+		ALWAYS BEFORE TEXT when text flows around image -->
+		<img class="leftimg" src="images/candle.png" />
 
-      <!-- Description -->
-      <label>Candle Holder</label>
-      <br /><expl>Basis of the Blacksmithing II class at <a href="http://thecrucible.org" target="_blank">The Crucible</a> in West Oakland.</expl>
-      <text>
-	<br />A complex project involving making four identical scrollwork pieces then fitting them together around a central post. There are two different sizes of scroll on each of the four pieces creating the top that holds the candle and the feet of the whole piece. Not only must the scrolls be identical but the whole pieces must be as well. An exercise in patience.
-	<br />Fitting the finished pieces together is all precision and timing. Some metal flakes off every time a piece is heated, so that must be taken into account for the fitting. You only have a limited amount of time to work a piece while it's hot before having to reheat it, so everything needs to be planned and laid out in advance.
-      </text>
+		<!-- Description -->
+		<label>Candle Holder</label>
+		<br /><expl>Basis of the Blacksmithing II class at <a href="http://thecrucible.org" target="_blank">The Crucible</a> in West Oakland.</expl>
+		<text>
+			<br />A complex project involving making four identical scrollwork pieces then fitting them together around a central post. There are two different sizes of scroll on each of the four pieces creating the top that holds the candle and the feet of the whole piece. Not only must the scrolls be identical but the whole pieces must be as well. An exercise in patience.
+			<br />Fitting the finished pieces together is all precision and timing. Some metal flakes off every time a piece is heated, so that must be taken into account for the fitting. You only have a limited amount of time to work a piece while it's hot before having to reheat it, so everything needs to be planned and laid out in advance.
+		</text>
 
-      <!-- forcing everything else below the text -->
-      <div style="clear: both;">
-      </div>
+		<!-- forcing everything else below the text -->
+		<div style="clear: both;">
+		</div>
 
-      <br /> <!-- spacing -->
+		<br /> <!-- spacing -->
 
-      <!-- dragonboat paddle
-	   ALWAYS BEFORE TEXT when text flows around image -->
-      <img class="rightimg" src="images/blue.png" />
+		<!-- dragonboat paddle
+		ALWAYS BEFORE TEXT when text flows around image -->
+		<img class="rightimg" src="images/blue.png" />
 
-      <!-- Description -->
-	<br /><label>Dragonboat Paddle Medal Rack</label>
-	<br /><expl>An independent project that is still in progress.</expl>
-	<text>
-	  <br /><strong>Photo soon.</strong>
-	  <br />The idea was to create an iron dragonboat paddle, made from scrap rebar, that would serve as a wall-mounted rack. After many failed attempts at making a correct paddle shape, this is the best one I have made so far.
-	  <br />The next challenge is to figure out how to mount it to a block that can be hung on the wall.
-      </text>
+		<!-- Description -->
+		<br /><label>Dragonboat Paddle Medal Rack</label>
+		<br /><expl>An independent project that is still in progress.</expl>
+		<text>
+		  <br /><strong>Photo soon.</strong>
+		  <br />The idea was to create an iron dragonboat paddle, made from scrap rebar, that would serve as a wall-mounted rack. After many failed attempts at making a correct paddle shape, this is the best one I have made so far.
+		  <br />The next challenge is to figure out how to mount it to a block that can be hung on the wall.
+		</text>
 
-      <!-- forcing everything else below previous -->
-      <div style="clear: both;">
-      </div>
+		<!-- forcing everything else below previous -->
+		<div style="clear: both;"></div>
 
-      <br /> <!-- spacing -->
+		<br /> <!-- spacing -->
 
-      <!-- Armband
-	   ALWAYS BEFORE TEXT when text flows around image -->
-      <img class="leftimg" src="images/armband.png" />
+		<!-- Armband
+		ALWAYS BEFORE TEXT when text flows around image -->
+		<img class="leftimg" src="images/armband.png" />
 
-      <!-- Description -->
-      <label>Armband</label>
-      <br /><expl>One of the Blacksmithing I class projects.</expl>
-      <text>
-	<br />A quick armband created from square stock. Several basic blacksmithing techniques are demonstrated and practiced in one short project - draw and taper, scrollwork,  twisting, and shaping.
-      </text>
+		<!-- Description -->
+		<label>Armband</label>
+		<br /><expl>One of the Blacksmithing I class projects.</expl>
+		<text>
+			<br />A quick armband created from square stock. Several basic blacksmithing techniques are demonstrated and practiced in one short project - draw and taper, scrollwork,  twisting, and shaping.
+		</text>
 
-      <!-- forcing everything else below previous -->
-      <div style="clear: both;"></div>
+		<!-- forcing everything else below previous -->
+		<div style="clear: both;"></div>
 
-    </div> <!-- Closing narrower project div -->
+	</div> <!-- Closing narrower project div -->
 
-    <!-- Creating more space between. -->
-    <br />
-    <br />
-    <br />
+	<!-- Creating more space between. -->
+	<br />
+	<br />
+	<br />
 
   </body>
 
