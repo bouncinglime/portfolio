@@ -199,7 +199,7 @@
 		<!-- Prototype -->
 		<label id="prototype">Prototype</label>
 		<text>
-			<br /><a href="http://invis.io/JR18IJ5W5" target="_blank">Clickable version available in Invision</a>. Annotated wireframes are also available <a href="bb-annotated.html" target="_blank">here</a> on a separate page.
+			<br /><a href="http://invis.io/JR18IJ5W5" target="_blank">Clickable version available in Invision</a>. Annotated wireframes are also available <a href="bb-annotated.php" target="_blank">here</a> on a separate page.
 		</text>
 		
 	</div> <!-- Closing narrower project div -->

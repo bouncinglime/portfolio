@@ -50,7 +50,7 @@
 				<span>Digital<br/>Projects</span>
 			</a>
 			<!-- About -->
-			<a class="comb" href="about.html">
+			<a class="comb" href="about.php">
 				<img src="images/about.png" />
 				<div class="hexlabel">
 					<p>About</p>
