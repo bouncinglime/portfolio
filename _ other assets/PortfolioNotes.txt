@@ -11,8 +11,8 @@ PORTFOLIO
   - update ravelry?
 - create error pages w/ business card image
 
+- logo scroll opacity not working properly on resume page
 
-- look into php templating?
 - need PR sketching hex
 
 
