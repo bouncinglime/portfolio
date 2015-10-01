@@ -60,8 +60,8 @@ h1 {
 /* style and position hex label */
 .hexlabel {
     position: absolute;
-    margin-top: 2em;
-    font-size: 30pt;
+    margin-top: 1.4em;
+    font-size: 28pt;
     height: 100%;
     width: 100%;
     color: #000;

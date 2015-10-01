@@ -7,9 +7,10 @@
     text-align: center;
 }
 
-/* use this to put text on top of hex images in a rollover. contained within <span></span> */
+/* use this to put text on top of hex images in a rollover. */
+/* contained within <span></span> */
 .honeycombs .inner_span{
-    font-size: 30pt;
+    font-size: 28pt;
     margin-bottom: 0;
     height: 100%;
     width: 100%;
