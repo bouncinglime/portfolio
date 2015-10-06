@@ -1,17 +1,8 @@
 PORTFOLIO
-- link github to host for live updating
-- drop all images onto standard size background
-  - move descriptions onto images
 - indicator for clickability of images on page
   - use rollover just bookmarked on codepen
   - make background empty, text/image overlay dark
   - wrap main div in <a>
-- update projects
-  - take photos / deal with project photos first
-  - update ravelry?
-- create error pages w/ business card image
-
-- logo scroll opacity not working properly on resume page
 
 - need PR sketching hex
 
