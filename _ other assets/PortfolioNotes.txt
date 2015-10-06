@@ -1,13 +1,3 @@
-PORTFOLIO
-- indicator for clickability of images on page
-  - use rollover just bookmarked on codepen
-  - make background empty, text/image overlay dark
-  - wrap main div in <a>
-
-- need PR sketching hex
-
-
-
 COLORS :
 
   - dark blue :  rgb(17, 47, 65) / #112F41
