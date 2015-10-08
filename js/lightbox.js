@@ -14,7 +14,7 @@
   var LightboxOptions = (function() {
     function LightboxOptions() {
       this.fadeDuration                = 500;
-      this.fitImagesInViewport         = false;
+      this.fitImagesInViewport         = true; /* 2015-10-08 : false -> true, to force 570px max side. */
       this.resizeDuration              = 700;
       this.positionFromTop             = 5; /* 2015-10-08 : 50 -> 5 */
       this.showImageNumberLabel        = true;
@@ -211,8 +211,11 @@
 
           windowWidth    = $(window).width();
           windowHeight   = $(window).height();
-          maxImageWidth  = windowWidth - self.containerLeftPadding - self.containerRightPadding - 20;
-          maxImageHeight = windowHeight - self.containerTopPadding - self.containerBottomPadding - 120;
+		  maxImageHeight = 570; /* 2015-10-08 : forcing size I want. */
+		  maxImageWidth  = 570;
+		  /* 2015-10-08 : disabled below fitting logic. */
+//          maxImageWidth  = windowWidth - self.containerLeftPadding - self.containerRightPadding - 20;
+//          maxImageHeight = windowHeight - self.containerTopPadding - self.containerBottomPadding - 120;
 
           // Is there a fitting issue?
           if ((preloader.width > maxImageWidth) || (preloader.height > maxImageHeight)) {
