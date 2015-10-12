@@ -30,7 +30,7 @@
     overflow: hidden;
     width: 700px;
     position: relative;
-    height: 1200px;
+/*    height: 1200px; 2015-10-12 : trying to limit height of homeycombs */
 }
 
 /* individual comb styling */

@@ -115,7 +115,7 @@
                 
                 $wrapper
                     .width(cols * (combWidth / 4 * 3 + settings.margin) + combWidth / 4)
-                    .height((row + 1) * (combHeight + settings.margin) + combHeight / 2);
+                    .height((row + 0.5) * (combHeight + settings.margin) + combHeight / 2); // 2015-10-12 : "row+1" changed to "row+0.5" to eliminate extra space at the bottom of homeycombs
             }
             
             $(window).resize(function(){
