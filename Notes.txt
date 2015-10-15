@@ -1,38 +1,11 @@
-<div id="gallery">
-				<a href="images/pr/ClientNotes.jpg" data-lightbox="problem" data-title="Notes from our client meetings.">
-					<img class="leftimg" src="images/pr/PR-research.png" />
-				</a>
-				<a href="images/pr/whiteboarding-api.jpg" data-lightbox="problem" data-title="The first research was talking to instructors and other classmates about their interactions with APIs. After looking through several resources and learning more about the details of an API call, we started looking into various types of online code editors."></a>
-				<a href="images/pr/whiteboarding-thingstoshow.jpg" data-lightbox="problem" data-title="The next thing we needed from users was to know what information they felt was most important. We spoke with several front-end web developers, as well as some people who were just getting started with FEWD, about what information the would most want to see about an API."></a>
+			<div id="gallery">
+				<a href="images/pr/drawing1.jpg" data-lightbox="sketch" data-title="One Gallery View idea.">
+					</a>
+				<a href="images/pr/drawing2.jpg" data-lightbox="sketch" data-title="Another Gallery View idea, including sorting options on the left."></a>
+				<a href="images/pr/drawing3.jpg" data-lightbox="sketch" data-title="Thoughts for a forum space where devs could ask and answer questions specifically relating to the PowerReviews API."></a>
 			</div>
-
-
 
 <!-- ALWAYS BEFORE TEXT when text flows around image -->
-			<div id="gallery">
-				<a href="images/pr/JudithFlow.jpg" data-lightbox="persona" data-title="Flow for Judith.">
-					<img class="rightimg" src="images/pr/PR-persona.png" />
-				</a>
-				<a href="images/pr/JudithStoryboard.png" data-lightbox="persona" data-title="Storyboard for Judith."></a>
-				<a href="images/pr/RandalFlow.jpg" data-lightbox="persona" data-title="Flow for Randal."></a>
-				<a href="images/pr/RandalStoryboard.png" data-lightbox="persona" data-title="Storyboard for Randal."></a>
-			</div>
-			<!-- Personas -->
-			<label id="persona">Personas</label>
-			<text>
-				<br /><a href="PR-images.html">PowerReviews Wireframes</a> & <a href="">Slide Deck</a>.
-				<br />Research and interviews allowed us to create two main personas - potential users and current users - that we wanted to target. Current users were the most important, per the brief and client conversations. However, we had come up with some ideas that could be used as marketing demos to show how easy it is to use the PowerReviews API.
-			</text>
-			<!-- forcing everything else below previous -->
-			<div style="clear: both;"></div>
-			<!-- Creating more space between. -->
-			<br />
-			<br />
-			
-			
-			
-			
-			<!-- ALWAYS BEFORE TEXT when text flows around image -->
 			<div id="gallery">
 				<a href="images/pr/sketch1.jpg" data-lightbox="iter" data-title="Ideas for dropdown menus to show all of the calls available in the API. These were then presented to users for feedback.">
 					<img class="leftimg" src="images/pr/PR-sketch.png" />
