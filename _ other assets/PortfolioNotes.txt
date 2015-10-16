@@ -11,3 +11,5 @@ COLORS :
   
   text color: #575057
   background color: #fdf6e3
+  
+  shadows: #a8a8a8
