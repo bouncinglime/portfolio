@@ -1,0 +1,40 @@
+/* (Mari) 2016-05-21 : This defines the amount of background seen around the tabs. */
+ul.tabs{
+	margin: 0px 20px;
+	padding-bottom: 10px;
+	list-style: none;
+	text-align: center;
+}
+
+li h1 {
+	margin: 0px;
+}
+
+/* (Mari) 2016-05-21 : This defines the style for the inactive tab. */
+ul.tabs li{
+	border-color: grey;
+	border-style: solid;
+	color: grey;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+/* (Mari) 2016-05-21 : These three define the style for the active tab. */
+/* Any properties not defined here will be inherited from ul.tabs li for the inactive tab.*/
+
+ul.tabs li.current{
+	background: inherit; /* This forces it to inherit the default background color for the page. */
+	color: inherit;
+	border-color: #575057;
+	border-style: solid;
+}
+
+.tab-content{
+	display: none;
+	padding: 15px;
+}
+
+.tab-content.current{
+	display: inherit;
+}
