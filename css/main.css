@@ -95,12 +95,12 @@ h1 {
 		text-align: center;
 		}
 	#digital {
-		max-width: 400px;
+		width: 300px;
 		float: left;
-		margin-left: 15%;
+		margin-left: 10%;
 	}
 	#tangible {
-		max-width: 400px;
+		width: 300px;
 		margin-left: 50%;
 	}
 }
@@ -115,12 +115,10 @@ h1 {
 		text-align: center;
 		}
 	#digital {
-		min-width: 300px;
-		max-width: 300px;
+		width: 300px;
 	}
 	#tangible {
-		min-width: 300px;
-		max-width: 300px;
+		width: 300px;
 	}
 }
 
