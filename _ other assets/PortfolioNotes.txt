@@ -10,7 +10,9 @@ COLORS :
   Widths : 7, 5, 3
   
   text color: #575057
+			  rgb(87, 80, 87)
   background color: #fdf6e3
+					rgb(253, 246, 227)
   
   shadows: #a8a8a8
 
