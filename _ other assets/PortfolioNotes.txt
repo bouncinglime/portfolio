@@ -16,5 +16,5 @@ COLORS :
   
   shadows: #a8a8a8
 
-LAST PUSH TO SERVER : 2016-05-21 20:55 UTC+1
+LAST PUSH TO SERVER : 2016-05-2 20:17 UTC+1
    resume files, index.html, resume.html : 2016-04-17 21:05 UTC
