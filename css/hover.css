@@ -1,0 +1,26 @@
+/****************************/
+/* from */
+/* http://www.cssscript.com/transparent-image-hover-overlay-with-pure-css-css3/ */
+/****************************/
+
+.media {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+.media__body {
+  background: rgba(87, 80, 87, 0.7);
+  position: absolute;
+  top: 100px;
+  right: 70px;
+  bottom: 100px;
+  left: 70px;
+  opacity: 0;
+  overflow: hidden;
+  text-align: center;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.media__body:hover { opacity: 1; }
