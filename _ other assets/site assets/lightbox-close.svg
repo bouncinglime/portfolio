@@ -15,7 +15,7 @@
    id="svg4871"
    version="1.1"
    inkscape:version="0.91 r13725"
-   inkscape:export-filename="C:\Users\mhsu\Documents\GitHub\portfolio\img\next.png"
+   inkscape:export-filename="C:\Users\mhsu\Documents\GitHub\portfolio\images\lightbox\close.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
    sodipodi:docname="lightbox-close.svg">
@@ -28,11 +28,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="15.982181"
-     inkscape:cy="15.452774"
+     inkscape:zoom="16.970563"
+     inkscape:cx="11.699443"
+     inkscape:cy="13.328862"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4196"
      showgrid="false"
      units="px"
      inkscape:showpageshadow="false"
@@ -54,24 +54,53 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Museo X"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="7.5914931"
+       y="20.557356"
+       id="text4156"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4158"
+         x="7.5914931"
+         y="20.557356"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.00000191px;line-height:100%;font-family:Museo;-inkscape-font-specification:Museo">X</tspan></text>
+  </g>
+  <g
+     inkscape:label="X"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-1025.3622)">
+    <g
+       id="g4196"
+       transform="translate(0.1666669,0.2499508)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5460"
+         d="m 17.893807,1031.5017 -9.1209461,14.2211"
+         style="fill:none;fill-rule:evenodd;stroke:#fc5b3f;stroke-width:3.00000018;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5460-0"
+         d="m 8.7728608,1031.5017 9.1209462,14.2211"
+         style="fill:none;fill-rule:evenodd;stroke:#fc5b3f;stroke-width:3.00000018;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Hex"
+     style="display:inline">
     <path
-       transform="matrix(-0.12824075,0,0,0.12868318,28.24768,965.85214)"
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#fc5b7f;stroke-width:23.3532505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="m 160.89382,646.85338 -91.787752,0 -45.893872,-79.49053 45.893879,-79.49052 91.787755,0 45.89387,79.49053 z"
+       inkscape:connector-curvature="0"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#fc5b3f;stroke-width:3.00000018;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 7.6160289,23.726504 11.7709301,0 5.885465,-10.229094 -5.885466,-10.229093 -11.7709304,0 -5.8854642,10.229095 z"
        id="path4138" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#fc5b7f;stroke-width:3.00000018;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 19.445437,1028.8762 7.7152853,1049.1934"
-       id="path5460"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#fc5b7f;stroke-width:3.00000024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 7.7152853,1028.8762 11.7301527,20.3172"
-       id="path5460-3"
-       inkscape:connector-curvature="0" />
   </g>
 </svg>
