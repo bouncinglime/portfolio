@@ -20,5 +20,5 @@ COLORS :
 	v-offset : 1
 	type : outer
 
-LAST PUSH TO SERVER : 2016-05-2 20:17 UTC+1
-   resume files, index.html, resume.html : 2016-06-30 14:24 UTC
+LAST PUSH TO SERVER : 2016-07-08 17:39 UTC+1
+   resume files, index.html, resume.html : 2016-07-08 17:39 UTC+1
