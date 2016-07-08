@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="402"
-   height="348"
-   viewBox="0 0 402 348"
+   width="401.9711"
+   height="347.70654"
+   viewBox="0 0 401.9711 347.70654"
    id="svg4160"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -20,7 +20,7 @@
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    sodipodi:docname="PR-process.svg"
-   enable-background="new">
+   style="enable-background:new">
   <defs
      id="defs4162">
     <filter
@@ -42,6 +42,70 @@
          id="path4147"
          inkscape:connector-curvature="0" />
     </clipPath>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter4174">
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(168,168,168)"
+         result="flood"
+         id="feFlood4176" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite4178" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur4180" />
+      <feOffset
+         dx="1"
+         dy="1"
+         result="offset"
+         id="feOffset4182" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite4184" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter4177">
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(168,168,168)"
+         result="flood"
+         id="feFlood4179" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite4181" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur4183" />
+      <feOffset
+         dx="1"
+         dy="1"
+         result="offset"
+         id="feOffset4185" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite4187" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -50,18 +114,22 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.24"
-     inkscape:cx="152.49783"
-     inkscape:cy="178.42564"
+     inkscape:zoom="1.5"
+     inkscape:cx="224.21295"
+     inkscape:cy="178.20634"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4148"
      showgrid="false"
      inkscape:showpageshadow="false"
      inkscape:window-width="1280"
      inkscape:window-height="662"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata4165">
     <rdf:RDF>
@@ -77,7 +145,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Stuff">
+     inkscape:label="Stuff"
+     transform="translate(-1.0149041,0.71866579)">
     <image
        width="803"
        height="528"
@@ -87,10 +156,10 @@
        x="0"
        y="0"
        clip-path="url(#clipPath4145)"
-       transform="matrix(0.62562788,0,0,0.62562788,76.759818,10.309733)" />
+       transform="matrix(0.62875743,0,0,0.62875743,77.138785,8.6255226)" />
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="M 41.54684,234.41246 C 22.47426,201.40421 6.9141034,174.13894 6.968715,173.82296 c 0.054612,-0.31598 15.65945,-27.49621 34.677419,-60.4005 L 76.22426,53.596477 76.43099,114.0906 c 0.113702,33.27177 0.113702,87.45874 0,120.41549 l -0.20673,59.92137 -34.67742,-60.015 z"
+       d="M 41.749663,233.84927 C 22.581677,200.6759 6.943685,173.27424 6.9985697,172.95668 7.0534549,172.63912 22.736352,145.32293 41.849454,112.25405 l 34.751094,-60.125252 0.207764,60.796732 c 0.114271,33.4382 0.114271,87.89623 0,121.01784 l -0.207764,60.22111 -34.850885,-60.31521 z"
        id="path4730"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\mhsu\Documents\GitHub\portfolio\images\pr\process.png"
@@ -102,10 +171,10 @@
      inkscape:label="Red"
      inkscape:groupmode="layer"
      id="g4155"
-     transform="translate(0,-704.36218)">
+     transform="translate(-1.0149041,-703.64351)">
     <path
        sodipodi:type="star"
-       style="fill:none;fill-rule:evenodd;stroke:#fc5b3f;stroke-width:1.90330744;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#fc5b3f;stroke-width:1.89383399;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4157"
        sodipodi:sides="6"
        sodipodi:cx="-157.85124"
@@ -118,22 +187,23 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m -120.35708,133.74346 -74.98833,-1e-5 -37.49417,-64.941803 37.49417,-64.9418006 74.98834,3.6e-6 37.494163,64.941805 z"
-       transform="matrix(2.6285568,0,0,2.6254561,615.92096,697.72647)"
+       transform="matrix(2.6417055,0,0,2.6385893,618.99695,695.95749)"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer1"
-     inkscape:label="Embiggen">
+     inkscape:label="Embiggen"
+     transform="translate(-1.0149041,0.71866579)">
     <g
+       transform="matrix(1.0050022,0,0,1.0050022,-0.406768,-2.5393865)"
        style="display:inline"
-       transform="matrix(1.0183768,0,0,1.0231528,-1.6569876,-724.69872)"
-       id="g4170">
+       id="g4154">
       <path
          sodipodi:type="star"
-         style="fill:none;stroke:#068587;stroke-width:22.12470818;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path2987-4-7"
+         style="display:inline;fill:#ffffff;fill-opacity:0.5322581;stroke:none;stroke-width:22.12470818;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2987-4-7-6"
          sodipodi:sides="6"
          sodipodi:cx="111.42857"
          sodipodi:cy="143.79076"
@@ -145,20 +215,40 @@
          inkscape:rounded="0"
          inkscape:randomized="0"
          d="m 300.08656,143.79076 -94.32899,163.38261 -188.657991,0 -94.328995,-163.38261 94.328995,-163.382615 188.657991,0 z"
-         transform="matrix(0.22188536,0,0,0.22090586,247.03622,972.21731)" />
+         transform="matrix(0.22769462,0,0,0.22775261,250.62821,269.1308)" />
       <g
-         transform="translate(-0.82005083,-0.96128434)"
-         id="g4166">
+         id="g4148">
         <path
-           style="fill:none;fill-rule:evenodd;stroke:#068587;stroke-width:4.89830112;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 272.58064,974.94283 0,59.99997"
-           id="path4140"
-           inkscape:connector-curvature="0" />
-        <path
-           style="fill:none;fill-rule:evenodd;stroke:#068587;stroke-width:4.89830112;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 302.58064,1004.9428 -60,0"
-           id="path4140-1"
-           inkscape:connector-curvature="0" />
+           transform="matrix(0.22769462,0,0,0.22775261,250.29387,270.42875)"
+           d="m 300.08656,143.79076 -94.32899,163.38261 -188.657991,0 -94.328995,-163.38261 94.328995,-163.382615 188.657991,0 z"
+           inkscape:randomized="0"
+           inkscape:rounded="0"
+           inkscape:flatsided="true"
+           sodipodi:arg2="0.52359878"
+           sodipodi:arg1="0"
+           sodipodi:r2="163.38261"
+           sodipodi:r1="188.65799"
+           sodipodi:cy="143.79076"
+           sodipodi:cx="111.42857"
+           sodipodi:sides="6"
+           id="path2987-4-7"
+           style="fill:none;stroke:#068587;stroke-width:21.84715462;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           sodipodi:type="star" />
+        <g
+           id="g4166"
+           transform="matrix(1.0261814,0,0,1.030994,-4.051621,-732.91252)"
+           style="filter:url(#filter4177)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4140"
+             d="m 272.58064,974.94283 0,59.99997"
+             style="fill:none;fill-rule:evenodd;stroke:#068587;stroke-width:4.83685207;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4140-1"
+             d="m 302.58064,1004.9428 -60,0"
+             style="fill:none;fill-rule:evenodd;stroke:#068587;stroke-width:4.83685207;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
       </g>
     </g>
   </g>
