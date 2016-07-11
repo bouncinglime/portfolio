@@ -26,5 +26,5 @@ Hex Outline Actions :
 	yellow : external link
 	red    : gallery
 
-LAST PUSH TO SERVER : 2016-07-08 17:39 UTC+1
+LAST PUSH TO SERVER : 2016-07-11 23:11 UTC+1
    resume files, index.html, resume.html : 2016-07-08 17:39 UTC+1
