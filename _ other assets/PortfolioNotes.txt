@@ -19,6 +19,12 @@ COLORS :
 	h-offset : 1
 	v-offset : 1
 	type : outer
+	
+Hex Outline Actions :
+	blue   : -none-
+	green  : internal link
+	yellow : external link
+	red    : gallery
 
 LAST PUSH TO SERVER : 2016-07-08 17:39 UTC+1
    resume files, index.html, resume.html : 2016-07-08 17:39 UTC+1
