@@ -214,6 +214,12 @@ huge {
     line-height: 1em;
 }
 
+hidden {
+	font-size: 10px;
+	line-height: 2em;
+	color: #e3ddcc;
+}
+
 .note-right {
     display: inline-block;
     position: relative;
