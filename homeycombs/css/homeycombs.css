@@ -9,7 +9,8 @@
 }
 
 /* Use this to put text on top of hex images in a rollover. */
-/* Text is contained within <span></span>. */
+/* Text is contained within <span></span> */
+/* after <div class="hexlabel">. */
 .honeycombs .inner_span{
     font-size: 28pt;
     margin-bottom: 0;
