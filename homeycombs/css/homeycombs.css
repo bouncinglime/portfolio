@@ -5,20 +5,21 @@
     overflow: hidden;
     width: 100%;
     text-align: center;
+	margin-left: 5%;
 }
 
-/* use this to put text on top of hex images in a rollover. */
-/* contained within <span></span> */
+/* Use this to put text on top of hex images in a rollover. */
+/* Text is contained within <span></span>. */
 .honeycombs .inner_span{
     font-size: 28pt;
     margin-bottom: 0;
     height: 100%;
     width: 100%;
-    background: #fcb03c;
-    opacity: 0.9;
+    background: #E3DDCC; /* This defines rollover color! */
+    opacity: 0.6;
 }
 
-/* more <span> styling */
+/* How text displays in the hex and rollover. */
 .honeycombs .inner-text{
     display: inline-block;
     padding-top: 30%;
@@ -28,7 +29,7 @@
 .honeycombs .honeycombs-inner-wrapper{
     display: inline-block;
     overflow: hidden;
-    width: 700px;
+/*    width: 900px; */
     position: relative;
 /*    height: 1200px; 2015-10-12 : trying to limit height of homeycombs */
 }
