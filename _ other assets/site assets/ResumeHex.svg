@@ -70,16 +70,16 @@
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#ffffff"
+     pagecolor="#f0f0f0"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="191.84488"
+     inkscape:cx="180.65594"
      inkscape:cy="176.06034"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4144"
      showgrid="true"
      inkscape:showpageshadow="false"
      gridtolerance="5"
@@ -106,6 +106,31 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <g
+     transform="translate(-7.2039359,-636.64432)"
+     style="display:inline;opacity:0.55"
+     inkscape:label="White Fill"
+     id="g4144"
+     inkscape:groupmode="layer">
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       transform="matrix(2.6418982,0,0,2.6387817,625.23085,628.95755)"
+       d="m -120.35708,133.74346 -74.98833,-1e-5 -37.49417,-64.941803 37.49417,-64.9418006 74.98834,3.6e-6 37.494163,64.941805 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="true"
+       sodipodi:arg2="1.5707963"
+       sodipodi:arg1="1.0471976"
+       sodipodi:r2="64.941803"
+       sodipodi:r1="74.988335"
+       sodipodi:cy="68.801651"
+       sodipodi:cx="-157.85124"
+       sodipodi:sides="6"
+       id="path4146"
+       style="display:inline;fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1.89369583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4151);enable-background:new;fill-opacity:1"
+       sodipodi:type="star" />
+  </g>
   <g
      inkscape:label="Stuff"
      inkscape:groupmode="layer"
