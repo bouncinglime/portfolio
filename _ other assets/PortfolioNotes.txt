@@ -1,30 +1,22 @@
-COLORS :
+COLORS :									HEX OUTLINE ACTION :
+  - dark blue : rgb(17, 47, 65) / #112F41		-not in use-
+  - blue : rgb(6, 133, 135) / #068587			-none-
+  - green : rgb(11, 176, 127) / #6FB07F			internal link
+  - yellow : rgb(252, 176, 60) / #FCB03C		external link
+  - red : rgb(252, 91, 63) / #FCSB3F			gallery
+  
+  TEXT : rgb(87, 80, 87) / #575057
 
-  - dark blue :  rgb(17, 47, 65) / #112F41
-  - blue : rgb(6, 133, 135) / #068587
-  - green : rgb(11, 176, 127) / #6FB07F
-  - yellow : rgb(252, 176, 60) / #FCB03C
-  - red : rgb(252, 91, 63) / #FCSB3F
-  
-  Size : 402 x 348.6
-  Widths : 7, 5, 3
-  
-  text color: #575057
-			  rgb(87, 80, 87)
-  background color: #fdf6e3
-					rgb(253, 246, 227)
-  
-  shadows: #a8a8a8
+  BACKGROUND : rgb(253, 246, 227) / #fdf6e3
+
+  SHADOWS: #a8a8a8
 	radius : 2
 	h-offset : 1
 	v-offset : 1
 	type : outer
-	
-Hex Outline Actions :
-	blue   : -none-
-	green  : internal link
-	yellow : external link
-	red    : gallery
+  
+SIZE : 402 x 348.6
+WIDTHS : 7, 5, 3
 
 LAST PUSH TO SERVER : 2016-07-11 23:11 UTC+1
    resume files, index.html, resume.html : 2016-07-08 17:39 UTC+1
