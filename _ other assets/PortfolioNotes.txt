@@ -1,5 +1,5 @@
 COLORS :									HEX OUTLINE ACTION :
-  - dark blue : rgb(17, 47, 65) / #112F41		-not in use-
+  - dark blue : rgb(17, 47, 65) / #112F41		-text links-
   - blue : rgb(6, 133, 135) / #068587			-none-
   - green : rgb(11, 176, 127) / #6FB07F			internal link
   - yellow : rgb(252, 176, 60) / #FCB03C		external link
