@@ -5,7 +5,6 @@
     overflow: hidden;
     width: 100%;
     text-align: center;
-	margin-left: 5%;
 }
 
 /* Use this to put text on top of hex images in a rollover. */
@@ -30,7 +29,7 @@
 .honeycombs .honeycombs-inner-wrapper{
     display: inline-block;
     overflow: hidden;
-/*    width: 900px; */
+    width: 900px; /* This prevents side-scrolling. */
     position: relative;
 /*    height: 1200px; 2015-10-12 : trying to limit height of homeycombs */
 }

@@ -27,7 +27,7 @@ body {
     cursor: default;
     max-width: 1400px;
 	min-width: 420px;
-    margin: 0 auto;
+    margin: 0 5% 20px 5%; /* Better margins! */
     color: #575057;
     background-color: #fdf6e3;
 }
