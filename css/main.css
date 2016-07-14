@@ -86,7 +86,7 @@ h1 {
 /* The project landing page is taken from http://jsbin.com/laqalexudo/edit?html,css,output */
 
 /* project landing page hex column when window is wide */
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 700px) {
 	.column div {
 		height: auto;
 		overflow: hidden; /* clearing */
@@ -96,12 +96,11 @@ h1 {
 		text-align: center;
 		}
 	#digital {
-		width: 350px;
+		width: 300px;
 		float: left;
-		margin-left: 10%;
 	}
 	#tangible {
-		width: 350px;
+		width: 300px;
 		margin-left: 50%;
 	}
 }
@@ -218,8 +217,8 @@ huge {
 }
 
 hidden {
+	float: right;
 	font-size: 10px;
-	line-height: 2em;
 	color: #e3ddcc;
 }
 
