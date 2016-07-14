@@ -19,5 +19,6 @@ SIZE : 402 x 348.6
 WIDTHS : 7, 5, 3
 
 LAST PUSH TO SERVER : 2016-07-13 22:18 UTC+1
-	index.html : 2016-07-13 22:18 UTC+1
+	index.html : 2016-07-14 10:54 UTC+1
+	main.css : 2016-07-14 10:54 UTC+1
 	resume files, resume.html : 2016-07-08 17:39 UTC+1
