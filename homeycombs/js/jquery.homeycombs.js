@@ -56,9 +56,7 @@
              */
             function updateScales(){
                 combWidth = settings.combWidth;
-                combHeight = ( Math.sqrt(3) * combWidth ) / 2;
-/*                edgeWidth = combWidth / 2; NOT IN USE? */
-                
+                combHeight = ( Math.sqrt(3) * combWidth ) / 2;          
                 
                 $(element).find('.comb').width(combWidth).height(combHeight);
                 $(element).find('.hex_l, .hex_r').width(combWidth).height(combHeight);
@@ -86,7 +84,7 @@
                 var left = 0; // pos left
                 var top = 0; // pos top
                 
-                var cols = 0; // originally 0; changed to 2 to move everything to left side of window
+                var cols = 0;
                 
                 $(element).find('.comb').each(function(index){
                     
@@ -115,7 +113,7 @@
                 
                 $wrapper
                     .width(cols * (combWidth / 4 * 3 + settings.margin) + combWidth / 4)
-                    .height((row + 0.5) * (combHeight + settings.margin) + combHeight / 2); // 2015-10-12 : "row+1" changed to "row+0.5" to eliminate extra space at the bottom of homeycombs
+                    .height((row + 0.5) * (combHeight + settings.margin) + combHeight / 2); // 2016-07-15 : trying to get less blank space at the bottom
             }
             
             $(window).resize(function(){

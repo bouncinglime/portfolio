@@ -183,17 +183,15 @@ h1 {
 .rightimg {
     float: right;
     width: 300px;
-    margin-top: 3em;
+    margin-top: 20px;
     margin-left: 10px;
-    margin-bottom: 20px;
 }
 
 .leftimg {
     float: left;
     width: 300px;
-    margin-top: 3em;
+    margin-top: 20px;
     margin-right: 10px;
-    margin-bottom: 20px;
 }
 
 .subtitle {
@@ -206,6 +204,7 @@ h1 {
 
 text {
     font-size: 13pt;
+	margin-top: 8px;
     line-height: 1.2em;
     text-align: left;
     margin-bottom: 20px;
@@ -214,7 +213,7 @@ text {
 label {
     font-weight: bold;
     font-size: 25pt;
-    line-height: 2em;
+    line-height: 1.2em;
 }
 
 expl {
