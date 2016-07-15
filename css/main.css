@@ -68,6 +68,18 @@ h1 {
     color: #112F41;
     z-index: 1;
 }
+.hexlabel-upcoming {
+    position: absolute;
+    font-size: 20pt;
+	padding: 10% 0;
+    height: 100%;
+    width: 100%;
+    color: #575057;
+    z-index: 1;
+}
+.hexlabel-upcoming p {
+	padding: 12% 0;
+}
 
 /* parameters for resume pdf display */
 /* creating a div allows it to resize */
