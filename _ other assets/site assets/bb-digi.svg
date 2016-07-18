@@ -17,7 +17,7 @@
    height="347.73154"
    viewBox="0 0 402 347.73154"
    sodipodi:docname="bb-digi.svg"
-   inkscape:export-filename="C:\Users\mhsu\Documents\GitHub\portfolio\_ other assets\site assets\bb-digi.png"
+   inkscape:export-filename="C:\Users\mhsu\Documents\GitHub\portfolio\images\bb\bb-digi.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <metadata
@@ -75,7 +75,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="0.88"
-     inkscape:cx="240.45026"
+     inkscape:cx="17.154805"
      inkscape:cy="176.91771"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -101,7 +101,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Image"
-     style="display:inline"
+     style="display:inline;opacity:0.55"
      transform="translate(4.086131e-6,-162.20009)">
     <image
        y="165.4142"
@@ -111,7 +111,8 @@
        preserveAspectRatio="none"
        height="556.77209"
        width="665.79614"
-       clip-path="url(#clipPath4143)" />
+       clip-path="url(#clipPath4143)"
+       style="" />
   </g>
   <g
      inkscape:groupmode="layer"

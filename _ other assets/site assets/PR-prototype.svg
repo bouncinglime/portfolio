@@ -16,10 +16,10 @@
    id="svg4160"
    version="1.1"
    inkscape:version="0.91 r13725"
-   inkscape:export-filename="C:\Users\mhsu\Documents\GitHub\portfolio\images\pr\solution.png"
+   inkscape:export-filename="C:\Users\mhsu\Documents\GitHub\portfolio\images\pr\PR-prototype.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
-   sodipodi:docname="PR-solution.svg"
+   sodipodi:docname="PR-prototype.svg"
    style="enable-background:new">
   <defs
      id="defs4162">
@@ -62,7 +62,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.24"
-     inkscape:cx="250.62576"
+     inkscape:cx="92.158018"
      inkscape:cy="175.88906"
      inkscape:document-units="px"
      inkscape:current-layer="g4159"
@@ -90,7 +90,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     style="display:inline;filter:url(#filter4151)"
+     style="display:inline;filter:url(#filter4151);opacity:0.55"
      inkscape:label="Image"
      inkscape:groupmode="layer"
      id="g4159"
