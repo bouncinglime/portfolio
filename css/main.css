@@ -187,14 +187,14 @@ h1 {
 
 .rightimg {
     float: right;
-    width: 300px;
+    width: 350px;
     margin-top: 20px;
     margin-left: 10px;
 }
 
 .leftimg {
     float: left;
-    width: 300px;
+    width: 350px;
     margin-top: 20px;
     margin-right: 10px;
 }
