@@ -106,7 +106,7 @@ h1 {
 	.column div h1 {
 		margin-left: 0px;
 		text-align: center;
-		}
+	}
 	#digital {
 		width: 300px;
 		float: left;
@@ -125,7 +125,7 @@ h1 {
 	.column div h1 {
 		margin-left: 0px;
 		text-align: center;
-		}
+	}
 	#digital {
 		width: 350px;
 	}
@@ -262,7 +262,7 @@ hidden {
 }
 
 /* sizing the vimeo video as responsive
-	from https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
+from https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
 .videoWrapper {
 	position: relative;
 	padding-bottom: 51%; /* changed */
@@ -278,4 +278,18 @@ hidden {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+/**************/
+/*** FOOTER ***/
+/**************/
+.footer {
+	background-color: #a8a8a8;
+	width: 100%;
+	height: 2px;
+}
+.narrow::after {
+	content: "";
+	clear: both;
+	display: table;
 }
