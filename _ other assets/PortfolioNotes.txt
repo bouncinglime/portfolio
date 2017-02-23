@@ -18,9 +18,10 @@ COLORS :									HEX OUTLINE ACTION :
 SIZE : 440 x 381.6 (outer) ; 352 x 305 (exported, 72dpi)
 WIDTHS : 7, 5, 3
 
-LAST PUSH TO SERVER : 2017-02-03 15:00 UTC+1
+LAST PUSH TO SERVER : 2017-02-23 13:56 UTC+1
 			 index.html : 2016-01-30 15:37 UTC+1
 			   main.css : 2017-02-03 15:00 UTC+1
 		 homeycombs.css : 2016-07-19 10:05 UTC+1
 	  cv files, cv.html : 2017-01-23 14:17 UTC+1
 			 about.html : 2016-10-24 20:23 UTC+1
+		  projects.html : 2017-02-23 13:56 UTC+1
