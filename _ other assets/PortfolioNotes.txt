@@ -15,7 +15,7 @@ COLORS :									HEX OUTLINE ACTION :
 	v-offset : 1
 	type : outer
   
-SIZE : 402 x 348.6
+SIZE : 440 x 381.6 (outer) ; 352 x 305 (exported, 72dpi)
 WIDTHS : 7, 5, 3
 
 LAST PUSH TO SERVER : 2017-02-03 15:00 UTC+1
