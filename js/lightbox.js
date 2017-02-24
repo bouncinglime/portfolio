@@ -43,11 +43,11 @@
   Lightbox.defaults = {
     albumLabel: 'Image %1 of %2',
     alwaysShowNavOnTouchDevices: false,
-    fadeDuration: 500,
+    fadeDuration: 200,
     fitImagesInViewport: true,
-    // maxWidth: 800,
-    // maxHeight: 600,
-    positionFromTop: 50,
+    maxWidth: 800,
+    maxHeight: 600,
+    positionFromTop: 10,
     resizeDuration: 700,
     showImageNumberLabel: true,
     wrapAround: false,
@@ -79,11 +79,12 @@
 
   // Build html for the lightbox and the overlay.
   // Attach event handlers to the new DOM elements. click click click
-  // (Mari) 2015-10-03 : This block defines the order in which elements are
-  // rendered, so changing order changes display.
+  // (Mari) 2015-10-03 : This block defines the order in which elements are rendered, so changing order changes display.
+  // (Mari & Jude) 2017-02-23 : Changing the order so that I can get the captions to the right of the images. Fingers crossed... Also, there can't be white space in the HTML below. It all has to be on one line. >_<
+  // (Mari) 2017-02-24 : Removing close button for now because it's hidden underneath the next button anyway. <div class="lb-closeContainer"><a class="lb-close"></a></div>
   Lightbox.prototype.build = function() {
     var self = this;
-    $('<div id="lightboxOverlay" class="lightboxOverlay"></div><div id="lightbox" class="lightbox"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /><div class="lb-nav"><a class="lb-prev" href="" ></a><a class="lb-next" href="" ></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div>').appendTo($('body'));
+    $('<div id="lightboxOverlay" class="lightboxOverlay"></div><div id="lightbox" class="lightbox"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /><div class="lb-nav"><a class="lb-prev" href="" ></a><a class="lb-next" href="" ></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div></div></div></div></div>').appendTo($('body'));
 
     // Cache jQuery objects
     this.$lightbox       = $('#lightbox');
@@ -246,12 +247,8 @@
 
         windowWidth    = $(window).width();
         windowHeight   = $(window).height();
-		// (Mari) 2015-10-08 : forcing size I want.
-        maxImageHeight = 570;
-        maxImageWidth  = 570;
-        // (Mari) 2015-10-08 : disabled below fitting logic.
-        //maxImageWidth  = windowWidth - self.containerLeftPadding - self.containerRightPadding - 20;
-        //maxImageHeight = windowHeight - self.containerTopPadding - self.containerBottomPadding - 120;
+        maxImageWidth  = windowWidth - self.containerLeftPadding - self.containerRightPadding - 20;
+        maxImageHeight = windowHeight - self.containerTopPadding - self.containerBottomPadding - 20; // (Mari) 2017-02-24 : Changed from 150 to 20 to get full height of viewport.
 
         // Check if image size is larger then maxWidth|maxHeight in settings
         if (self.options.maxWidth && self.options.maxWidth < maxImageWidth) {
@@ -296,11 +293,13 @@
 
     var oldWidth  = this.$outerContainer.outerWidth();
     var oldHeight = this.$outerContainer.outerHeight();
-    var newWidth  = imageWidth + this.containerLeftPadding + this.containerRightPadding;
+	// (Mari & Jude) 2017-02-23 : Multiply imageWidth by 1.3 to make enough room for the caption on the right. 1.5 is even more space.
+    var newWidth  = (imageWidth * 1.5) + this.containerLeftPadding + this.containerRightPadding;
     var newHeight = imageHeight + this.containerTopPadding + this.containerBottomPadding;
 
     function postResize() {
-      self.$lightbox.find('.lb-dataContainer').width(newWidth);
+	  // (Mari & Jude) 2017-02-23 : Multiply newWidth by about 0.2 to fit the caption.
+      self.$lightbox.find('.lb-dataContainer').width(newWidth * 0.21);
       self.$lightbox.find('.lb-prevLink').height(newHeight);
       self.$lightbox.find('.lb-nextLink').height(newHeight);
       self.showImage();

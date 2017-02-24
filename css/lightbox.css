@@ -54,10 +54,9 @@ body.lb-disable-scrolling {
 
 .lb-outerContainer {
   position: relative;
-  background-color: white;
+  background-color: #fdf6e3; /* (Mari) 2017-02-24 : set to background color. */
   *zoom: 1;
-  width: 250px;
-  height: 250px;
+  width: 0px;
   margin: 0 auto;
   border-radius: 4px;
 }
@@ -68,8 +67,11 @@ body.lb-disable-scrolling {
   clear: both;
 }
 
+/* (Mari & Jude) 2017-02-23 : float and width */
 .lb-container {
-  padding: 4px;
+  padding: 10px;
+  float: left;
+  width: 75%;
 }
 
 .lb-loader {
@@ -151,50 +153,52 @@ body.lb-disable-scrolling {
 }
 
 .lb-dataContainer {
-  margin: 0 auto;
-  padding-top: 5px;
+  padding-top: 10px;
+/*  margin: 0 auto;
+  width: 100%; (Mari) 2017-02-24 : commenting out. */
   *zoom: 1;
-  width: 100%;
-  -moz-border-radius-bottomleft: 4px;
-  -webkit-border-bottom-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-  -moz-border-radius-bottomright: 4px;
-  -webkit-border-bottom-right-radius: 4px;
-  border-bottom-right-radius: 4px;
+  float: right; /* (Mari & Jude) 2017-02-23 : added. */
 }
 
+/* (Mari & Jude) 2017-02-23 : commenting out.
 .lb-dataContainer:after {
   content: "";
   display: table;
   clear: both;
 }
+*/
 
 .lb-data {
-  padding: 0 4px;
+  padding: 0 10px;
   color: #ccc;
 }
 
 .lb-data .lb-details {
-  width: 85%;
+  width: 100%;
   float: left;
   text-align: left;
   line-height: 1.1em;
 }
 
+/* (Mari & Jude) 2017-02-23 : Edits from Jude. */
 .lb-data .lb-caption {
-  font-size: 13px;
-  font-weight: bold;
-  line-height: 1em;
+  background-color: #575057;
+  color: #fdf6e3;
+  padding: 10px;
+  border-radius: 3px;
 }
 
+/* (Mari & Jude) 2017-02-23 : Edits from Jude. */
 .lb-data .lb-number {
   display: block;
-  clear: left;
-  padding-bottom: 1em;
+  float: right;
+  clear: both;
+  padding-top: 1em;
   font-size: 12px;
   color: #999999;
 }
 
+/* (Mari & Jude) 2017-02-23 : Edits from Jude. */
 .lb-data .lb-close {
   display: block;
   float: right;
@@ -203,12 +207,12 @@ body.lb-disable-scrolling {
   background: url(../images/lightbox/close.png) top right no-repeat;
   text-align: right;
   outline: none;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+/*  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
   opacity: 0.7;
   -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
-  transition: opacity 0.2s;
+  transition: opacity 0.2s;*/
 }
 
 .lb-data .lb-close:hover {
