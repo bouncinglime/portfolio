@@ -7,7 +7,7 @@ body:after {
 /* (Mari) 2015-10-03 : added my own styling for captions */
 .lb-caption {
 	display: block;
-    font-size: 13pt;
+    font-size: 11pt;
     line-height: 1.2em; /* have to override .lightbox line-height: 0 */
     text-align: left;
 	padding : 5px;
