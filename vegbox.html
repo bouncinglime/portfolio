@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<!-- favicon -->
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+		<!-- meta tags -->
+		<meta charset="utf-8" />
+		<meta name="Marielle Hsu Portfolio - VegBox Challenge" content="HTML,CSS,JavaScript" />
+		<meta name="author" content="Marielle Hsu" />
+		<meta name="description" content="Creating efficient, intuitive experiences." />
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="homeycombs/css/homeycombs.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css" />
+		<!-- title -->
+		<title>Marielle Hsu - VegBox Challenge</title>
+		<!-- load js for lightbox-->
+		<script src="js/jquery-2.2.4.min.js"></script>
+		<script src="js/lightbox.js"></script>
+		<script src="js/scroll.js"></script>
+	</head>
+	
+	
+	<!-- MAIN BODY -->
+	
+	<body>
+		
+		<!-- actual content -->
+		
+		<div class="narrow">
+			
+			<!-- logo and page name -->
+			<div class="chop">
+				<a href="http://mariellehsu.com"><img class="chop" src="images/logo.png" alt="nested hex logo" title="nested hex logo" />
+				</a>
+			</div>
+			<h1>VegBox</h1>
+			
+			<!------------->
+			<!-- PROBLEM -->
+			<!------------->
+			<!-- ALWAYS BEFORE TEXT when text flows around image -->
+			<img class="leftimg" src="images/blue.png" />
+			<br />
+			<label>Problem</label>
+			<text>
+				<br />Design an app which showcases different local produce and allows the consumer to purchase them in one easy 'Veg Box'. The town council sponsoring this want the design and layout to be easy and intuitive for people to use. They are looking for an attractive and modern design to help encourage people to use the app.
+				<br />You have three days. Go!
+			</text>
+			
+			<!-- forcing everything else below previous -->
+			<div style="clear: both;"></div>
+			<br />
+			
+			<!-------------->
+			<!-- SOLUTION -->
+			<!-------------->
+			<!-- ALWAYS BEFORE TEXT when text flows around image -->
+			<div id="gallery">
+				<a href="images/yellow.png" data-lightbox="solution" data-title="<b>Loading Screen</b>
+				<br />I have two ideas about what to do for this, though most phones will barely load it. One is to have this apple that has progressively more bites taken out. (I saw this once on a food-related site, and thought it was very clever.) The other is to have a small, drawn animation of hands packing veg into an open box. (Or possibly something like the PaperlessPost headers, where it's a little video. But those are usually large files and take a long time to load.)">
+					<img class="rightimg" src="images/blue.png" />
+				</a>
+				<a href="images/red.png" data-lightbox="solution" data-title="<b>Main App Screen</b>
+				<br />- From GoodEggs, using images with text overlay : easily extendible and repeatable for adding more box types.
+				<br />- Include 'About Us' for people who aren't users yet to get a better idea about the service.
+				<br />- 'Browse' is for all users : get to know options and service.
+				<br />&nbsp;-> Question: Is adding to box is greyed-out / disabled when using Browse AND there isn't a user logged in?
+				<br />-- USER ACTION : CLICK SMALL --"></a>
+				<a href="images/green.png" data-lightbox="solution" data-title="<b>Box & Specials</b>
+				<br />- Selecting a size box brings you to the list of what's in that box.
+				<br />- Accordion menu for each category, with number of items listed clearly.
+				<br />&nbsp;-> Details of this may change from week to week depending on supplies.
+				<br />- List of special items below the regulars. They can be added straight to the box from there, or clicked on for further information.
+				<br />-- USER ACTION : ADD ITEM --"></a>
+				<a href="images/red.png" data-lightbox="solution" data-title="<b>Quantity (pop-up)</b>
+				<br />- Clicking the add button brings up a quantity-entry field.
+				<br />&nbsp;-> Only if users can add more than one of that item. This will need to be a dynamic quantity based on the total from the producer and then everyone's selections. It will need to be updated on a frequent and regular basis.
+				<br />- This, and all other, pop-ups can be dismissed by simply clicking anywhere on the screen.
+				<br />-- USER ACTION : ENTER QUANTITY, CLICK BUTTON --"></a>
+				<a href="images/yellow.png" data-lightbox="solution" data-title="<b>Guidepoint</b>
+				<br />- Because most Android phones don't have a 'Settings' or 'Options' button, it's good to let people know how to get to that sort of info.
+				<br />&nbsp;-> No iPhone has ever had that, though older Androids may still have one.
+				<br />- Eventually, this will probably reveal a drawer with several different options - Settings, Order, Preferences, etc.
+				<br />&nbsp;-> For now, it goes straight to Order because this is a test.
+				<br />- In a full version of the app, there will need to be more guidepoints.
+				<br />-- USER ACTION : DISMISS, CLICK ITEM --"></a>
+			</div>
+			<br />
+			<label>Solution</label>
+			<text>
+				<br /><b>Wireframes</b>
+				<br />Browse through all of the app screens at once in a <a href="images/vegbox/phone_flow_screens.png" target="_blank" rel="noopener">boring and long image</a>, or walk through the designed app flow with more information.
+				<br /><b>Finished Screen</b>
+				<br />I decided to build <a href="">an iPad screen</a>, because I did the whole flow for a small phone screen, to show how it could scale. This would also work for a small browser window, or it could be made into two columns for landscape tablets and larger browser windows.
+			</text>
+			
+			<!-- forcing everything else below previous -->
+			<div style="clear: both;"></div>
+			<br />			
+			
+			<!---------->
+			<!-- A11Y -->
+			<!---------->
+			<!-- ALWAYS BEFORE TEXT when text flows around image -->
+			<img class="leftimg" src="images/yellow.png">
+			<br />
+			<label>Accessibility</label>
+			<text>
+				<br />Because this is a more finished version, I decided to include some quick accessibility testing, thanks in part to <a href="https://github.com/hail2u/color-blindness-emulation" target="_blank" rel="noopener">this Github project</a>.
+				<br />It's clear that the transparent green flag and button don't stand out well in some of them, so perhaps adding a large white border to those would help. Another important point is to ensure that none of the text is ever displayed as an image, to allow pinch-to-zoom to work properly on everything.
+				<br />
+				<ul>
+					<li><a href="images/vegbox/colour-blindness/test.html">Colour Blindness</a> (requires SVG compatibility)</li>
+					<li><a href="images/vegbox/iPad_Negative.png">High Contrast</a></li>
+					<li><a href="images/vegbox/iPad_B&W.png">Black and White</a></li>
+				</ul>
+			</text>
+			
+			<!-- forcing everything else below previous -->
+			<div style="clear: both;"></div>
+			<br />
+			
+			<!----------------->
+			<!-- ASSUMPTIONS -->
+			<!----------------->
+			<!-- ALWAYS BEFORE TEXT when text flows around image -->
+			<img class="rightimg" src="images/blue.png">
+			<br />
+			<label>Assumptions</label>
+			<text>
+				<br /><b>Meta</b>
+				<br />&nbsp;- The user goals I used were based on personal experience, and past conversations.
+				<br />&nbsp;- The "town council" is interested in targeting smartphone-only users.
+				<br />&nbsp;&nbsp;&nbsp;-> This particular flow is designed for an Android phone.
+				<br />&nbsp;- This app is not solely for existing customers.
+				<br />&nbsp;- Buyers are individuals, not retailers. (This is a potential feature set for the app.)
+				<br />&nbsp;- Three user types : buyer, supplier, packer.
+				<br />&nbsp;&nbsp;&nbsp;-> There's a single backend database that feeds info to all three. (Possibly four, when you add delivery.)
+				<br /><b>Logistics</b>
+				<br />&nbsp;- Delivery is an integrated option.
+				<br />&nbsp;- There is a limited time for making selections.
+				<br />&nbsp;&nbsp;&nbsp;-> Like <a href="https://thefoodassembly.com/en/assemblies/7602" target="_blank" rel="noopener">The Food Assembly</a>, there is a deadline for suppliers to enter their info. Then there's a deadline for ordering.
+				<br />&nbsp;- Currently, there is a set list of suppliers and that an onboarding experience for new ones isn't needed.
+				<br />&nbsp;&nbsp;&nbsp;-> Council controls this list, and have a way of adding new ones.
+				<br />&nbsp;- There is a tracking system for the boxes so that packers and pick-up people know whose box is whose.
+				<br /><b>Digital</b>
+				<br />&nbsp;- An alternative way of managing the account exists.
+				<br />&nbsp;- In-app detection of whether or not the user is logged into a valid account, and what information on that account has been submitted.
+			</text>
+			
+		</div> <!-- Closing narrower project div -->
+		
+		<script src="js/gallery.js"></script> <!-- loading js for lightbox gallery -->
+		
+	</body>
+	
+	<!-- forcing everything else below -->
+	<div style="clear: both;"></div>
+	<br />
+	
+	<!--- FOOTER --->
+	<div class="footer"></div>
+	
+</html>
