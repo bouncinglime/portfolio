@@ -141,30 +141,23 @@ h1 {
 	text-align: left;
 }
 
-.headimg {
-    float: left;
-    width: 480px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-}
-
 /* 2015-10-15 : copied from headimg & hero to use for all-image pages */
 .leftbum {
     float: left;
-    width: 480px;
+    width: 60%;
 	padding: 1px;
     margin-right: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border: 3px solid #068587;
     background-color: #a8a8a8;
 	box-shadow: 5px 5px 5px #a8a8a8;
 }
 .rightbum {
     float: right;
-    width: 480px;
+    width: 60%;
 	padding: 1px;
     margin-left: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border: 3px solid #068587;
     background-color: #a8a8a8;
 	box-shadow: 5px 5px 5px #a8a8a8
@@ -176,7 +169,6 @@ h1 {
 }
 
 .hero {
-    margin-right: 5px;
     padding: 2px;
     border: 3px solid #068587;
     background-color: #575057;
@@ -197,6 +189,14 @@ h1 {
     width: 44%;
     margin-top: 20px;
     margin-right: 10px;
+}
+
+/* 2017-03-01 : for displaying wireframe images on a page instead of in a gallery.
+For use in conjunction with .leftbum or .rightbum in the html */
+.wires {
+	background-color: white;
+	padding: 2px;
+	width: 30%;
 }
 
 .subtitle {
