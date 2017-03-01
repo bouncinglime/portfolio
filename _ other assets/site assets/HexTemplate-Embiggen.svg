@@ -14,7 +14,7 @@
    id="svg3004"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="EmbiggenHexTemplate.svg"
+   sodipodi:docname="HexTemplate-Embiggen.svg"
    inkscape:export-filename="C:\Users\mhsu\Documents\GitHub\portfolio\images\cardshex.png"
    inkscape:export-xdpi="71.928391"
    inkscape:export-ydpi="71.928391">
@@ -61,10 +61,10 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.24"
-     inkscape:cx="220.91257"
+     inkscape:cx="183.07692"
      inkscape:cy="202.85919"
      inkscape:document-units="px"
-     inkscape:current-layer="g4204"
+     inkscape:current-layer="layer2"
      showgrid="true"
      inkscape:showpageshadow="false"
      inkscape:window-width="1280"
@@ -116,7 +116,8 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(2.8334733e-6,-670.7326)"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        transform="matrix(1.1508415,0,0,1.1525883,91.763377,695.81584)"
        d="m 300.08656,143.79076 -94.32899,163.38261 -188.657991,0 -94.328995,-163.38261 94.328995,-163.382615 188.657991,0 z"
@@ -139,7 +140,8 @@
      id="layer2"
      inkscape:label="embiggen"
      style="display:inline"
-     transform="translate(2.8334733e-6,33.629583)">
+     transform="translate(2.8334733e-6,33.629583)"
+     sodipodi:insensitive="true">
     <g
        id="g4154"
        transform="matrix(1.0959037,0,0,1.0959037,-0.27664025,-33.134547)">
