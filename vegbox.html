@@ -22,7 +22,6 @@
 		<script src="js/scroll.js"></script>
 	</head>
 	
-	
 	<!-- MAIN BODY -->
 	
 	<body>
@@ -33,16 +32,16 @@
 			
 			<!-- logo and page name -->
 			<div class="chop">
-				<a href="http://mariellehsu.com"><img class="chop" src="images/logo.png" alt="nested hex logo" title="nested hex logo" />
-				</a>
+				<a href="http://mariellehsu.com"><img class="chop" src="images/logo.png" alt="nested hex logo" title="nested hex logo" /></a>
 			</div>
-			<h1>VegBox</h1>
+			
+			<h1>VegBox Challenge</h1>
 			
 			<!------------->
 			<!-- PROBLEM -->
 			<!------------->
 			<!-- ALWAYS BEFORE TEXT when text flows around image -->
-			<img class="leftimg" src="images/blue.png" />
+			<img class="leftimg" src="images/vegbox/problem.png" />
 			<br />
 			<label>Problem</label>
 			<text>
@@ -58,43 +57,15 @@
 			<!-- SOLUTION -->
 			<!-------------->
 			<!-- ALWAYS BEFORE TEXT when text flows around image -->
-			<div id="gallery">
-				<a href="images/yellow.png" data-lightbox="solution" data-title="<b>Loading Screen</b>
-				<br />I have two ideas about what to do for this, though most phones will barely load it. One is to have this apple that has progressively more bites taken out. (I saw this once on a food-related site, and thought it was very clever.) The other is to have a small, drawn animation of hands packing veg into an open box. (Or possibly something like the PaperlessPost headers, where it's a little video. But those are usually large files and take a long time to load.)">
-					<img class="rightimg" src="images/blue.png" />
-				</a>
-				<a href="images/red.png" data-lightbox="solution" data-title="<b>Main App Screen</b>
-				<br />- From GoodEggs, using images with text overlay : easily extendible and repeatable for adding more box types.
-				<br />- Include 'About Us' for people who aren't users yet to get a better idea about the service.
-				<br />- 'Browse' is for all users : get to know options and service.
-				<br />&nbsp;-> Question: Is adding to box is greyed-out / disabled when using Browse AND there isn't a user logged in?
-				<br />-- USER ACTION : CLICK SMALL --"></a>
-				<a href="images/green.png" data-lightbox="solution" data-title="<b>Box & Specials</b>
-				<br />- Selecting a size box brings you to the list of what's in that box.
-				<br />- Accordion menu for each category, with number of items listed clearly.
-				<br />&nbsp;-> Details of this may change from week to week depending on supplies.
-				<br />- List of special items below the regulars. They can be added straight to the box from there, or clicked on for further information.
-				<br />-- USER ACTION : ADD ITEM --"></a>
-				<a href="images/red.png" data-lightbox="solution" data-title="<b>Quantity (pop-up)</b>
-				<br />- Clicking the add button brings up a quantity-entry field.
-				<br />&nbsp;-> Only if users can add more than one of that item. This will need to be a dynamic quantity based on the total from the producer and then everyone's selections. It will need to be updated on a frequent and regular basis.
-				<br />- This, and all other, pop-ups can be dismissed by simply clicking anywhere on the screen.
-				<br />-- USER ACTION : ENTER QUANTITY, CLICK BUTTON --"></a>
-				<a href="images/yellow.png" data-lightbox="solution" data-title="<b>Guidepoint</b>
-				<br />- Because most Android phones don't have a 'Settings' or 'Options' button, it's good to let people know how to get to that sort of info.
-				<br />&nbsp;-> No iPhone has ever had that, though older Androids may still have one.
-				<br />- Eventually, this will probably reveal a drawer with several different options - Settings, Order, Preferences, etc.
-				<br />&nbsp;-> For now, it goes straight to Order because this is a test.
-				<br />- In a full version of the app, there will need to be more guidepoints.
-				<br />-- USER ACTION : DISMISS, CLICK ITEM --"></a>
-			</div>
+			<a href="vegbox-wireframes.html"><img class="rightimg" src="images/vegbox/wireframes.png" /></a>
 			<br />
 			<label>Solution</label>
 			<text>
-				<br /><b>Wireframes</b>
+				<br /><b><a href="vegbox-wireframes.html">Wireframes</a></b>
 				<br />Browse through all of the app screens at once in a <a href="images/vegbox/phone_flow_screens.png" target="_blank" rel="noopener">boring and long image</a>, or walk through the designed app flow with more information.
-				<br /><b>Finished Screen</b>
-				<br />I decided to build <a href="">an iPad screen</a>, because I did the whole flow for a small phone screen, to show how it could scale. This would also work for a small browser window, or it could be made into two columns for landscape tablets and larger browser windows.
+				<br />
+				<br /><b><div id="gallery"><a href="images/vegbox/iPad_ProductInfo.png" data-lightbox="finished" data-title="Visual design for a product item view.">Finished Screen</a></div></b>
+				I decided to build an iPad screen, because I did the whole flow for a small phone screen, to show how it could scale. This would also work for a small browser window, or it could be made into two columns for landscape tablets and larger browser windows.
 			</text>
 			
 			<!-- forcing everything else below previous -->
@@ -105,18 +76,16 @@
 			<!-- A11Y -->
 			<!---------->
 			<!-- ALWAYS BEFORE TEXT when text flows around image -->
-			<img class="leftimg" src="images/yellow.png">
+			<div id="gallery">
+				<a href="images/blue.png" data-lightbox="a11y" data-title="Colour Blindness (requires SVG compatibility)"><img class="leftimg" src="images/yellow.png"></a>
+				<a href="images/vegbox/iPad_Negative.png" data-lightbox="a11y" data-title="Product screen shown in high contrast / negative colours. Some assistive programs will also invert the colours of images, and some do not."></a>
+				<br /><a href="images/vegbox/iPad_B&W.png" data-lightbox="a11y" data-tile="Product screen shown in black and white. In this one, it's clear that the price flag on the left does not show up well; either changing the colour or having it not be transparent may help. This will always depend on the contrast between the flag and the image underneath."></a>
+			</div>
 			<br />
 			<label>Accessibility</label>
 			<text>
 				<br />Because this is a more finished version, I decided to include some quick accessibility testing, thanks in part to <a href="https://github.com/hail2u/color-blindness-emulation" target="_blank" rel="noopener">this Github project</a>.
 				<br />It's clear that the transparent green flag and button don't stand out well in some of them, so perhaps adding a large white border to those would help. Another important point is to ensure that none of the text is ever displayed as an image, to allow pinch-to-zoom to work properly on everything.
-				<br />
-				<ul>
-					<li><a href="images/vegbox/colour-blindness/test.html">Colour Blindness</a> (requires SVG compatibility)</li>
-					<li><a href="images/vegbox/iPad_Negative.png">High Contrast</a></li>
-					<li><a href="images/vegbox/iPad_B&W.png">Black and White</a></li>
-				</ul>
 			</text>
 			
 			<!-- forcing everything else below previous -->
@@ -164,4 +133,4 @@
 	<!--- FOOTER --->
 	<div class="footer"></div>
 	
-</html>
+</html>	
