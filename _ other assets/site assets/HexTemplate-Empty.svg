@@ -21,18 +21,7 @@
    sodipodi:docname="empty-hex.svg"
    style="enable-background:new">
   <defs
-     id="defs4162">
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter4151">
-      <feBlend
-         inkscape:collect="always"
-         mode="lighten"
-         in2="BackgroundImage"
-         id="feBlend4153" />
-    </filter>
-  </defs>
+     id="defs4162" />
   <sodipodi:namedview
      id="base"
      pagecolor="#dcdcdc"
@@ -41,10 +30,10 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.87681241"
-     inkscape:cx="204.02389"
+     inkscape:cx="-20.08334"
      inkscape:cy="134.66372"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:showpageshadow="false"
      inkscape:window-width="1280"
@@ -135,7 +124,7 @@
      id="g4135"
      inkscape:groupmode="layer"
      inkscape:label="Green"
-     style="display:none;filter:url(#filter4151)"
+     style="display:none;"
      sodipodi:insensitive="true">
     <path
        inkscape:export-ydpi="90"
@@ -157,7 +146,7 @@
        sodipodi:type="star" />
   </g>
   <g
-     style="display:none;filter:url(#filter4151)"
+     style="display:none;"
      inkscape:label="Blue"
      inkscape:groupmode="layer"
      id="g4159"
@@ -183,7 +172,7 @@
        inkscape:export-ydpi="90" />
   </g>
   <g
-     style="display:none;filter:url(#filter4151)"
+     style="display:none;"
      inkscape:label="Red"
      inkscape:groupmode="layer"
      id="g4155"
