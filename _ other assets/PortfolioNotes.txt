@@ -24,4 +24,4 @@ LAST PUSH TO SERVER : 2017-02-23 13:56 UTC+1
 		 homeycombs.css : 2016-07-19 10:05 UTC+1
 	  cv files, cv.html : 2017-01-23 14:17 UTC+1
 			 about.html : 2016-10-24 20:23 UTC+1
-		  projects.html : 2017-02-23 13:56 UTC+1
+		  projects.html : 2017-03-01 18:02 UTC+1
