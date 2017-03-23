@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<!-- favicon -->
+		<link rel="icon" href="/main-img/favicon.ico" type="image/x-icon" />
+		<!-- meta tags -->
+		<meta charset="utf-8" />
+		<meta name="Marielle Hsu Portfolio - VegBox Challenge" content="HTML,CSS,JavaScript" />
+		<meta name="author" content="Marielle Hsu" />
+		<meta name="description" content="Creating efficient, intuitive experiences." />
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css" />
+		<!-- title -->
+		<title>Marielle Hsu - VegBox Challenge</title>
+		<!-- js -->
+		<script src="/js/jquery-2.2.4.min.js"></script>
+		<script src="/js/scroll.js"></script>
+	</head>
+	
+	<!-- MAIN BODY -->
+	
+	<body>
+		
+		<!-- actual content -->
+		
+		<div class="narrow">
+			
+			<!-- logo and page name -->
+			<div class="chop">
+				<a href="/index.html"><img class="chop" src="/main-img/logo.png" alt="nested hex logo" title="nested hex logo" /></a>
+			</div>
+			
+			<h1>VegBox Challenge</h1>
+			
+			<!------------->
+			<!-- PROBLEM -->
+			<!------------->
+			<!-- ALWAYS BEFORE TEXT when text flows around image -->
+			<img class="leftimg" src="images/problem.png" />
+			<br />
+			<label>Problem</label>
+			<text>
+				<br />Design an app which showcases different local produce and allows the consumer to purchase them in one easy 'Veg Box'. The town council sponsoring this want the design and layout to be easy and intuitive for people to use. They are looking for an attractive and modern design to help encourage people to use the app.
+				<br />You have three days. Go!
+			</text>
+			
+			<!-- forcing everything else below previous -->
+			<div style="clear: both;"></div>
+			<br />
+			
+			<!-------------->
+			<!-- SOLUTION -->
+			<!-------------->
+			<!-- ALWAYS BEFORE TEXT when text flows around image -->
+			<a href="vegbox-wireframes.html"><img class="rightimg" src="images/wireframes.png" /></a>
+			<br />
+			<label>Solution</label>
+			<text>
+				<br /><b><a href="vegbox-wireframes.html">Wireframes</a></b>
+				<br />Browse through all of the app screens at once in a <a href="images/phone_flow_screens.png" target="_blank" rel="noopener">boring and long image</a>, or walk through the designed app flow with more information.
+				<br />
+				<br /><b><a href="vegbox-onescreen.html">Finished Screen</a></b>
+				<br />Visual design for a single finished screen.
+			</text>
+			
+			<!-- forcing everything else below previous -->
+			<div style="clear: both;"></div>
+			<br />			
+			
+			<!---------->
+			<!-- A11Y -->
+			<!---------->
+			<!-- ALWAYS BEFORE TEXT when text flows around image -->
+			<a href="vegbox-a11y.html"><img class="leftimg" src="images/a11y.png"></a>
+			<br />
+			<label>Accessibility</label>
+			<text>
+				<br />Because this is a more finished version, I decided to include some quick accessibility testing, thanks in part to <a href="https://github.com/hail2u/color-blindness-emulation" target="_blank" rel="noopener">this Github project</a>.
+			</text>
+			
+			<!-- forcing everything else below previous -->
+			<div style="clear: both;"></div>
+			<br />
+			
+			<!----------------->
+			<!-- ASSUMPTIONS -->
+			<!----------------->
+			<!-- ALWAYS BEFORE TEXT when text flows around image -->
+			<img class="rightimg" src="/main-img/blue.png">
+			<br />
+			<label>Assumptions</label>
+			<text>
+				<br /><b>Meta</b>
+				<br />&nbsp;- The user goals I used were based on personal experience, and past conversations.
+				<br />&nbsp;- The "town council" is interested in targeting smartphone-only users.
+				<br />&nbsp;&nbsp;&nbsp;-> This particular flow is designed for an Android phone.
+				<br />&nbsp;- This app is not solely for existing customers.
+				<br />&nbsp;- Buyers are individuals, not retailers. (This is a potential feature set for the app.)
+				<br />&nbsp;- Three user types : buyer, supplier, packer.
+				<br />&nbsp;&nbsp;&nbsp;-> There's a single backend database that feeds info to all three. (Possibly four, when you add delivery.)
+				<br /><b>Logistics</b>
+				<br />&nbsp;- Delivery is an integrated option.
+				<br />&nbsp;- There is a limited time for making selections.
+				<br />&nbsp;&nbsp;&nbsp;-> Like <a href="https://thefoodassembly.com/en/assemblies/7602" target="_blank" rel="noopener">The Food Assembly</a>, there is a deadline for suppliers to enter their info. Then there's a deadline for ordering.
+				<br />&nbsp;- Currently, there is a set list of suppliers and that an onboarding experience for new ones isn't needed.
+				<br />&nbsp;&nbsp;&nbsp;-> Council controls this list, and have a way of adding new ones.
+				<br />&nbsp;- There is a tracking system for the boxes so that packers and pick-up people know whose box is whose.
+				<br /><b>Digital</b>
+				<br />&nbsp;- An alternative way of managing the account exists.
+				<br />&nbsp;- In-app detection of whether or not the user is logged into a valid account, and what information on that account has been submitted.
+			</text>
+			
+		</div> <!-- Closing narrower project div -->
+				
+	</body>
+	
+	<!-- forcing everything else below -->
+	<div style="clear: both;"></div>
+	<br />
+	
+	<!--- FOOTER --->
+	<div class="footer"></div>
+	
+</html>	
